@@ -1,0 +1,614 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Administrator	./inc/Administrator.h	/^class Administrator: public Uzytkownik$/;"	c	inherits:Uzytkownik
+Administrator	./inc/Administrator.h	2;"	d
+Administrator	./inc/galeria_klas_Zbrzezniak29781.h	/^class Administrator: public Uzytkownik$/;"	c	inherits:Uzytkownik
+Administrator::akceptuj_uzytkownika	./inc/Administrator.h	/^        void akceptuj_uzytkownika(string imie_nazwisko);$/;"	p	class:Administrator	access:public	signature:(string imie_nazwisko)
+Administrator::akceptuj_uzytkownika	./inc/galeria_klas_Zbrzezniak29781.h	/^        void akceptuj_uzytkownika(string imie_nazwisko);$/;"	p	class:Administrator	access:public	signature:(string imie_nazwisko)
+Administrator::aktualizuj_baze_danych	./inc/Administrator.h	/^        void aktualizuj_baze_danych();$/;"	p	class:Administrator	access:public	signature:()
+Administrator::aktualizuj_baze_danych	./inc/galeria_klas_Zbrzezniak29781.h	/^        void aktualizuj_baze_danych();$/;"	p	class:Administrator	access:public	signature:()
+Administrator::aktualizuj_serwis	./inc/Administrator.h	/^        void aktualizuj_serwis();$/;"	p	class:Administrator	access:public	signature:()
+Administrator::aktualizuj_serwis	./inc/galeria_klas_Zbrzezniak29781.h	/^        void aktualizuj_serwis();$/;"	p	class:Administrator	access:public	signature:()
+Administrator::moderuj_czat	./inc/Administrator.h	/^        void moderuj_czat();$/;"	p	class:Administrator	access:public	signature:()
+Administrator::moderuj_czat	./inc/galeria_klas_Zbrzezniak29781.h	/^        void moderuj_czat();$/;"	p	class:Administrator	access:public	signature:()
+Administrator::usun_uzytkownika	./inc/Administrator.h	/^        void usun_uzytkownika(string imie_nazwisko);$/;"	p	class:Administrator	access:public	signature:(string imie_nazwisko)
+Administrator::usun_uzytkownika	./inc/galeria_klas_Zbrzezniak29781.h	/^        void usun_uzytkownika(string imie_nazwisko);$/;"	p	class:Administrator	access:public	signature:(string imie_nazwisko)
+Baza_danych	./inc/Baza_danych.h	/^class Baza_danych$/;"	c
+Baza_danych	./inc/galeria_klas_Zbrzezniak29781.h	/^        Baza_danych();$/;"	p	class:Baza_danych	access:public	signature:()
+Baza_danych	./inc/galeria_klas_Zbrzezniak29781.h	/^class Baza_danych$/;"	c
+Baza_danych	./src/Interfejs.cpp	/^Baza_danych::Baza_danych()$/;"	f	class:Baza_danych	signature:()
+Baza_danych::Baza_danych	./inc/galeria_klas_Zbrzezniak29781.h	/^        Baza_danych();$/;"	p	class:Baza_danych	access:public	signature:()
+Baza_danych::Baza_danych	./src/Interfejs.cpp	/^Baza_danych::Baza_danych()$/;"	f	class:Baza_danych	signature:()
+Baza_danych::pokaz_zawartosc	./inc/Baza_danych.h	/^        virtual void pokaz_zawartosc() = 0;$/;"	p	class:Baza_danych	access:public	signature:()
+Baza_danych::pokaz_zawartosc	./inc/galeria_klas_Zbrzezniak29781.h	/^        virtual void pokaz_zawartosc() = 0;$/;"	p	class:Baza_danych	access:public	signature:()
+Baza_danych_h	./inc/Baza_danych.h	2;"	d
+Cel_utworzenia	./inc/Jezyk_sztuczny.h	/^        enum Cel_utworzenia {sztuka, komunikacja, szyfrowanie_wiadomosci} cel_utworzenia;$/;"	g	class:Jezyk_sztuczny	access:private
+Cel_utworzenia	./inc/galeria_klas_Zbrzezniak29781.h	/^        enum Cel_utworzenia {sztuka, komunikacja, szyfrowanie_wiadomosci} cel_utworzenia;$/;"	g	class:Jezyk_sztuczny	access:public
+Element_list_klas	./inc/Interface.h	/^class Element_list_klas$/;"	c
+Element_list_klas	./inc/Interface.h	2;"	d
+Element_list_klas	./inc/galeria_klas_Zbrzezniak29781.h	/^class Element_list_klas$/;"	c
+Element_list_klas::nazwa_klasy	./inc/Interface.h	/^        string nazwa_klasy;$/;"	m	class:Element_list_klas	access:public
+Element_list_klas::nazwa_klasy	./inc/galeria_klas_Zbrzezniak29781.h	/^        string nazwa_klasy;$/;"	m	class:Element_list_klas	access:public
+Element_list_klas::wskaznik_na_obiekt	./inc/Interface.h	/^        Baza_danych* wskaznik_na_obiekt;$/;"	m	class:Element_list_klas	access:public
+Element_list_klas::wskaznik_na_obiekt	./inc/galeria_klas_Zbrzezniak29781.h	/^        Baza_danych* wskaznik_na_obiekt;$/;"	m	class:Element_list_klas	access:public
+Germanskie	./inc/Germanskie.h	/^class Germanskie: public Jezyk_naturalny$/;"	c	inherits:Jezyk_naturalny
+Germanskie	./inc/Germanskie.h	2;"	d
+Germanskie	./inc/galeria_klas_Zbrzezniak29781.h	/^class Germanskie: public Jezyk_naturalny$/;"	c	inherits:Jezyk_naturalny
+Germanskie::dodaj_przypadek	./inc/Germanskie.h	/^        void dodaj_przypadek (string przypadek);$/;"	p	class:Germanskie	access:public	signature:(string przypadek)
+Germanskie::dodaj_przypadek	./inc/galeria_klas_Zbrzezniak29781.h	/^        void dodaj_przypadek (string przypadek);$/;"	p	class:Germanskie	access:public	signature:(string przypadek)
+Germanskie::dodaj_znak_niestandardowy	./inc/Germanskie.h	/^        void dodaj_znak_niestandardowy (char z);$/;"	p	class:Germanskie	access:public	signature:(char z)
+Germanskie::dodaj_znak_niestandardowy	./inc/galeria_klas_Zbrzezniak29781.h	/^        void dodaj_znak_niestandardowy (char z);$/;"	p	class:Germanskie	access:public	signature:(char z)
+Germanskie::pokaz_zawartosc	./inc/Germanskie.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:Germanskie	access:public	signature:()
+Germanskie::pokaz_zawartosc	./inc/galeria_klas_Zbrzezniak29781.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:Germanskie	access:public	signature:()
+Germanskie::przypadki	./inc/Germanskie.h	/^        string przypadki[];$/;"	m	class:Germanskie	access:private
+Germanskie::przypadki	./inc/galeria_klas_Zbrzezniak29781.h	/^        string przypadki[];$/;"	m	class:Germanskie	access:private
+Germanskie::znaki_niestandardowe	./inc/Germanskie.h	/^        char znaki_niestandardowe[];$/;"	m	class:Germanskie	access:private
+Germanskie::znaki_niestandardowe	./inc/galeria_klas_Zbrzezniak29781.h	/^        char znaki_niestandardowe[];$/;"	m	class:Germanskie	access:private
+IIIciej_generacji	./inc/IIIciej_generacji.h	/^class IIIciej_generacji: public Jezyk_programowania$/;"	c	inherits:Jezyk_programowania
+IIIciej_generacji	./inc/IIIciej_generacji.h	2;"	d
+IIIciej_generacji	./inc/galeria_klas_Zbrzezniak29781.h	/^class IIIciej_generacji: public Jezyk_programowania$/;"	c	inherits:Jezyk_programowania
+IIIciej_generacji::pokaz_zawartosc	./inc/IIIciej_generacji.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:IIIciej_generacji	access:public	signature:()
+IIIciej_generacji::pokaz_zawartosc	./inc/galeria_klas_Zbrzezniak29781.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:IIIciej_generacji	access:public	signature:()
+IIIciej_generacji::posiada_wskazniki	./inc/IIIciej_generacji.h	/^        bool posiada_wskazniki;$/;"	m	class:IIIciej_generacji	access:private
+IIIciej_generacji::posiada_wskazniki	./inc/galeria_klas_Zbrzezniak29781.h	/^        bool posiada_wskazniki;$/;"	m	class:IIIciej_generacji	access:private
+IIIciej_generacji::ustaw_posiada_wskazniki	./inc/IIIciej_generacji.h	/^        void ustaw_posiada_wskazniki (bool posiada_wskazniki);$/;"	p	class:IIIciej_generacji	access:public	signature:(bool posiada_wskazniki)
+IIIciej_generacji::ustaw_posiada_wskazniki	./inc/galeria_klas_Zbrzezniak29781.h	/^        void ustaw_posiada_wskazniki (bool posiada_wskazniki);$/;"	p	class:IIIciej_generacji	access:public	signature:(bool posiada_wskazniki)
+IVtej_generacji	./inc/IVtej_generacji.h	/^class IVtej_generacji: public Jezyk_programowania$/;"	c	inherits:Jezyk_programowania
+IVtej_generacji	./inc/IVtej_generacji.h	2;"	d
+IVtej_generacji	./inc/galeria_klas_Zbrzezniak29781.h	/^class IVtej_generacji: public Jezyk_programowania$/;"	c	inherits:Jezyk_programowania
+IVtej_generacji::pokaz_zawartosc	./inc/IVtej_generacji.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:IVtej_generacji	access:public	signature:()
+IVtej_generacji::pokaz_zawartosc	./inc/galeria_klas_Zbrzezniak29781.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:IVtej_generacji	access:public	signature:()
+IVtej_generacji::posiada_klasy	./inc/IVtej_generacji.h	/^        bool posiada_klasy;$/;"	m	class:IVtej_generacji	access:private
+IVtej_generacji::posiada_klasy	./inc/galeria_klas_Zbrzezniak29781.h	/^        bool posiada_klasy;$/;"	m	class:IVtej_generacji	access:private
+IVtej_generacji::ustaw_posiada_klasy	./inc/IVtej_generacji.h	/^        void ustaw_posiada_klasy(bool posiada_klasy);$/;"	p	class:IVtej_generacji	access:public	signature:(bool posiada_klasy)
+IVtej_generacji::ustaw_posiada_klasy	./inc/galeria_klas_Zbrzezniak29781.h	/^        void ustaw_posiada_klasy(bool posiada_klasy);$/;"	p	class:IVtej_generacji	access:public	signature:(bool posiada_klasy)
+Interface	./inc/Interface.h	/^class Interface$/;"	c
+Interface	./inc/Interface.h	4;"	d
+Interface	./inc/galeria_klas_Zbrzezniak29781.h	/^class Interface$/;"	c
+Interface::Interface::jezyk_martwy_interface_tworzenie	./src/Interfejs.cpp	/^void Interface::Interface::jezyk_martwy_interface_tworzenie()$/;"	f	class:Interface::Interface	signature:()
+Interface::interface_glowny	./inc/Interface.h	/^        void interface_glowny();$/;"	p	class:Interface	access:public	signature:()
+Interface::interface_glowny	./inc/galeria_klas_Zbrzezniak29781.h	/^        void interface_glowny();$/;"	p	class:Interface	access:public	signature:()
+Interface::interface_glowny	./src/Interfejs.cpp	/^void Interface::interface_glowny()$/;"	f	class:Interface	signature:()
+Interface::jezyk_martwy_interface	./inc/Interface.h	/^        void jezyk_martwy_interface();$/;"	p	class:Interface	access:public	signature:()
+Interface::jezyk_martwy_interface	./inc/galeria_klas_Zbrzezniak29781.h	/^        void jezyk_martwy_interface();$/;"	p	class:Interface	access:public	signature:()
+Interface::jezyk_martwy_interface	./src/Interfejs.cpp	/^void Interface::jezyk_martwy_interface()$/;"	f	class:Interface	signature:()
+Interface::jezyk_martwy_interface_tworzenie	./inc/Interface.h	/^        void jezyk_martwy_interface_tworzenie();$/;"	p	class:Interface	access:public	signature:()
+Interface::jezyk_martwy_interface_tworzenie	./inc/galeria_klas_Zbrzezniak29781.h	/^        void jezyk_martwy_interface_tworzenie();$/;"	p	class:Interface	access:public	signature:()
+Interface::lista_klas	./inc/Interface.h	/^        vector <Element_list_klas> lista_klas;$/;"	m	class:Interface	access:private
+Interface::lista_klas	./inc/galeria_klas_Zbrzezniak29781.h	/^        vector <Element_list_klas> lista_klas;$/;"	m	class:Interface	access:private
+Interface::znajdz_instancje	./inc/Interface.h	/^        Element_list_klas znajdz_instancje();$/;"	p	class:Interface	access:public	signature:()
+Interface::znajdz_instancje	./inc/galeria_klas_Zbrzezniak29781.h	/^        Element_list_klas znajdz_instancje();$/;"	p	class:Interface	access:public	signature:()
+Interpretowany	./inc/Interpretowany.h	/^class Interpretowany$/;"	c
+Interpretowany	./inc/Interpretowany.h	2;"	d
+Interpretowany	./inc/galeria_klas_Zbrzezniak29781.h	/^class Interpretowany$/;"	c
+Interpretowany::dodaj_interpretej	./inc/Interpretowany.h	/^         void dodaj_interpretej (string interpreter);$/;"	p	class:Interpretowany	access:public	signature:(string interpreter)
+Interpretowany::dodaj_interpretej	./inc/galeria_klas_Zbrzezniak29781.h	/^         void dodaj_interpretej (string interpreter);$/;"	p	class:Interpretowany	access:public	signature:(string interpreter)
+Interpretowany::interpreter	./inc/Interpretowany.h	/^         string interpreter;$/;"	m	class:Interpretowany	access:private
+Interpretowany::interpreter	./inc/galeria_klas_Zbrzezniak29781.h	/^         string interpreter;$/;"	m	class:Interpretowany	access:private
+Interpretowany::jezyk_programowania	./inc/Interpretowany.h	/^         Jezyk_programowania jezyk_programowania;$/;"	m	class:Interpretowany	access:private
+Interpretowany::jezyk_programowania	./inc/galeria_klas_Zbrzezniak29781.h	/^         Jezyk_programowania jezyk_programowania;$/;"	m	class:Interpretowany	access:private
+Interpretowany::kontrola_typow	./inc/Interpretowany.h	/^         bool kontrola_typow;$/;"	m	class:Interpretowany	access:private
+Interpretowany::kontrola_typow	./inc/galeria_klas_Zbrzezniak29781.h	/^         bool kontrola_typow;$/;"	m	class:Interpretowany	access:private
+Interpretowany::pobierz_jezyk	./inc/Interpretowany.h	/^         Jezyk_programowania * pobierz_jezyk();$/;"	p	class:Interpretowany	access:public	signature:()
+Interpretowany::pobierz_jezyk	./inc/galeria_klas_Zbrzezniak29781.h	/^         Jezyk_programowania * pobierz_jezyk();$/;"	p	class:Interpretowany	access:public	signature:()
+Interpretowany::ustaw_kontrola_typow	./inc/Interpretowany.h	/^         void ustaw_kontrola_typow (bool kontrola_typow);$/;"	p	class:Interpretowany	access:public	signature:(bool kontrola_typow)
+Interpretowany::ustaw_kontrola_typow	./inc/galeria_klas_Zbrzezniak29781.h	/^         void ustaw_kontrola_typow (bool kontrola_typow);$/;"	p	class:Interpretowany	access:public	signature:(bool kontrola_typow)
+Jezyk	./inc/Jezyk.h	/^class Jezyk: public Baza_danych$/;"	c	inherits:Baza_danych
+Jezyk	./inc/galeria_klas_Zbrzezniak29781.h	/^    Jezyk();$/;"	p	class:Jezyk	access:public	signature:()
+Jezyk	./inc/galeria_klas_Zbrzezniak29781.h	/^class Jezyk: public Baza_danych$/;"	c	inherits:Baza_danych
+Jezyk	./src/Interfejs.cpp	/^Jezyk::Jezyk()$/;"	f	class:Jezyk	signature:()
+Jezyk::Jezyk	./inc/galeria_klas_Zbrzezniak29781.h	/^    Jezyk();$/;"	p	class:Jezyk	access:public	signature:()
+Jezyk::Jezyk	./src/Interfejs.cpp	/^Jezyk::Jezyk()$/;"	f	class:Jezyk	signature:()
+Jezyk::Poziom_trudnosci	./inc/Jezyk.h	/^        enum Poziom_trudnosci {latwy, srednio_trudny, trudny} poziom_trudnosci;$/;"	g	class:Jezyk	access:private
+Jezyk::Poziom_trudnosci	./inc/galeria_klas_Zbrzezniak29781.h	/^        enum Poziom_trudnosci {latwy, srednio_trudny, trudny} poziom_trudnosci;$/;"	g	class:Jezyk	access:private
+Jezyk::Poziom_zaawansowania	./inc/Jezyk.h	/^        enum Poziom_zaawansowania {poczatkujacy, sredniozaawansowany, zaawansowany, biegly} poziom_zaawasowania;$/;"	g	class:Jezyk	access:private
+Jezyk::Poziom_zaawansowania	./inc/galeria_klas_Zbrzezniak29781.h	/^        enum Poziom_zaawansowania {poczatkujacy, sredniozaawansowany, zaawansowany, biegly} poziom_zaawasowania;$/;"	g	class:Jezyk	access:private
+Jezyk::aktualizuj_zawartosc	./inc/Jezyk.h	/^        void aktualizuj_zawartosc();$/;"	p	class:Jezyk	access:public	signature:()
+Jezyk::aktualizuj_zawartosc	./inc/galeria_klas_Zbrzezniak29781.h	/^        void aktualizuj_zawartosc();$/;"	p	class:Jezyk	access:public	signature:()
+Jezyk::biegly	./inc/Jezyk.h	/^        enum Poziom_zaawansowania {poczatkujacy, sredniozaawansowany, zaawansowany, biegly} poziom_zaawasowania;$/;"	e	enum:Jezyk::Poziom_zaawansowania
+Jezyk::biegly	./inc/galeria_klas_Zbrzezniak29781.h	/^        enum Poziom_zaawansowania {poczatkujacy, sredniozaawansowany, zaawansowany, biegly} poziom_zaawasowania;$/;"	e	enum:Jezyk::Poziom_zaawansowania
+Jezyk::dodaj_nauczyciela	./inc/Jezyk.h	/^        void dodaj_nauczyciela (string imie_nazwisko);$/;"	p	class:Jezyk	access:public	signature:(string imie_nazwisko)
+Jezyk::dodaj_nauczyciela	./inc/galeria_klas_Zbrzezniak29781.h	/^        void dodaj_nauczyciela (string imie_nazwisko);$/;"	p	class:Jezyk	access:public	signature:(string imie_nazwisko)
+Jezyk::dodaj_zasade_skladni	./inc/Jezyk.h	/^        void dodaj_zasade_skladni (string nazwa_zasady);$/;"	p	class:Jezyk	access:public	signature:(string nazwa_zasady)
+Jezyk::dodaj_zasade_skladni	./inc/galeria_klas_Zbrzezniak29781.h	/^        void dodaj_zasade_skladni (string nazwa_zasady);$/;"	p	class:Jezyk	access:public	signature:(string nazwa_zasady)
+Jezyk::lat_nauki	./inc/Jezyk.h	/^        float lat_nauki;$/;"	m	class:Jezyk	access:private
+Jezyk::lat_nauki	./inc/galeria_klas_Zbrzezniak29781.h	/^        float lat_nauki;$/;"	m	class:Jezyk	access:private
+Jezyk::latwy	./inc/Jezyk.h	/^        enum Poziom_trudnosci {latwy, srednio_trudny, trudny} poziom_trudnosci;$/;"	e	enum:Jezyk::Poziom_trudnosci
+Jezyk::latwy	./inc/galeria_klas_Zbrzezniak29781.h	/^        enum Poziom_trudnosci {latwy, srednio_trudny, trudny} poziom_trudnosci;$/;"	e	enum:Jezyk::Poziom_trudnosci
+Jezyk::nauczyciel	./inc/Jezyk.h	/^        string nauczyciel;$/;"	m	class:Jezyk	access:private
+Jezyk::nauczyciel	./inc/galeria_klas_Zbrzezniak29781.h	/^        string nauczyciel;$/;"	m	class:Jezyk	access:private
+Jezyk::poczatkujacy	./inc/Jezyk.h	/^        enum Poziom_zaawansowania {poczatkujacy, sredniozaawansowany, zaawansowany, biegly} poziom_zaawasowania;$/;"	e	enum:Jezyk::Poziom_zaawansowania
+Jezyk::poczatkujacy	./inc/galeria_klas_Zbrzezniak29781.h	/^        enum Poziom_zaawansowania {poczatkujacy, sredniozaawansowany, zaawansowany, biegly} poziom_zaawasowania;$/;"	e	enum:Jezyk::Poziom_zaawansowania
+Jezyk::podaj_lat_nauki	./inc/Jezyk.h	/^        void podaj_lat_nauki (float lat_nauki);$/;"	p	class:Jezyk	access:public	signature:(float lat_nauki)
+Jezyk::podaj_lat_nauki	./inc/galeria_klas_Zbrzezniak29781.h	/^        void podaj_lat_nauki (float lat_nauki);$/;"	p	class:Jezyk	access:public	signature:(float lat_nauki)
+Jezyk::pokaz_zawartosc	./inc/Jezyk.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:Jezyk	access:public	signature:()
+Jezyk::pokaz_zawartosc	./inc/galeria_klas_Zbrzezniak29781.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:Jezyk	access:public	signature:()
+Jezyk::pokaz_zawartosc	./src/Interfejs.cpp	/^void Jezyk::pokaz_zawartosc(){};$/;"	f	class:Jezyk	signature:()
+Jezyk::poziom_trudnosci	./inc/Jezyk.h	/^        enum Poziom_trudnosci {latwy, srednio_trudny, trudny} poziom_trudnosci;$/;"	m	class:Jezyk	typeref:enum:Jezyk::Poziom_trudnosci	access:private
+Jezyk::poziom_trudnosci	./inc/galeria_klas_Zbrzezniak29781.h	/^        enum Poziom_trudnosci {latwy, srednio_trudny, trudny} poziom_trudnosci;$/;"	m	class:Jezyk	typeref:enum:Jezyk::Poziom_trudnosci	access:private
+Jezyk::poziom_zaawasowania	./inc/Jezyk.h	/^        enum Poziom_zaawansowania {poczatkujacy, sredniozaawansowany, zaawansowany, biegly} poziom_zaawasowania;$/;"	m	class:Jezyk	typeref:enum:Jezyk::Poziom_zaawansowania	access:private
+Jezyk::poziom_zaawasowania	./inc/galeria_klas_Zbrzezniak29781.h	/^        enum Poziom_zaawansowania {poczatkujacy, sredniozaawansowany, zaawansowany, biegly} poziom_zaawasowania;$/;"	m	class:Jezyk	typeref:enum:Jezyk::Poziom_zaawansowania	access:private
+Jezyk::srednio_trudny	./inc/Jezyk.h	/^        enum Poziom_trudnosci {latwy, srednio_trudny, trudny} poziom_trudnosci;$/;"	e	enum:Jezyk::Poziom_trudnosci
+Jezyk::srednio_trudny	./inc/galeria_klas_Zbrzezniak29781.h	/^        enum Poziom_trudnosci {latwy, srednio_trudny, trudny} poziom_trudnosci;$/;"	e	enum:Jezyk::Poziom_trudnosci
+Jezyk::sredniozaawansowany	./inc/Jezyk.h	/^        enum Poziom_zaawansowania {poczatkujacy, sredniozaawansowany, zaawansowany, biegly} poziom_zaawasowania;$/;"	e	enum:Jezyk::Poziom_zaawansowania
+Jezyk::sredniozaawansowany	./inc/galeria_klas_Zbrzezniak29781.h	/^        enum Poziom_zaawansowania {poczatkujacy, sredniozaawansowany, zaawansowany, biegly} poziom_zaawasowania;$/;"	e	enum:Jezyk::Poziom_zaawansowania
+Jezyk::trudny	./inc/Jezyk.h	/^        enum Poziom_trudnosci {latwy, srednio_trudny, trudny} poziom_trudnosci;$/;"	e	enum:Jezyk::Poziom_trudnosci
+Jezyk::trudny	./inc/galeria_klas_Zbrzezniak29781.h	/^        enum Poziom_trudnosci {latwy, srednio_trudny, trudny} poziom_trudnosci;$/;"	e	enum:Jezyk::Poziom_trudnosci
+Jezyk::ustaw_poziom_trudnosci	./inc/Jezyk.h	/^        void ustaw_poziom_trudnosci (enum Poziom_trudnosci poziom_trudnosci);$/;"	p	class:Jezyk	access:public	signature:(enum Poziom_trudnosci poziom_trudnosci)
+Jezyk::ustaw_poziom_trudnosci	./inc/galeria_klas_Zbrzezniak29781.h	/^        void ustaw_poziom_trudnosci (enum Poziom_trudnosci poziom_trudnosci);$/;"	p	class:Jezyk	access:public	signature:(enum Poziom_trudnosci poziom_trudnosci)
+Jezyk::ustaw_poziom_zaawansowania	./inc/Jezyk.h	/^        void ustaw_poziom_zaawansowania (enum Poziom_zaawansowania poziom_zaawansowania);$/;"	p	class:Jezyk	access:public	signature:(enum Poziom_zaawansowania poziom_zaawansowania)
+Jezyk::ustaw_poziom_zaawansowania	./inc/galeria_klas_Zbrzezniak29781.h	/^        void ustaw_poziom_zaawansowania (enum Poziom_zaawansowania poziom_zaawansowania);$/;"	p	class:Jezyk	access:public	signature:(enum Poziom_zaawansowania poziom_zaawansowania)
+Jezyk::zaawansowany	./inc/Jezyk.h	/^        enum Poziom_zaawansowania {poczatkujacy, sredniozaawansowany, zaawansowany, biegly} poziom_zaawasowania;$/;"	e	enum:Jezyk::Poziom_zaawansowania
+Jezyk::zaawansowany	./inc/galeria_klas_Zbrzezniak29781.h	/^        enum Poziom_zaawansowania {poczatkujacy, sredniozaawansowany, zaawansowany, biegly} poziom_zaawasowania;$/;"	e	enum:Jezyk::Poziom_zaawansowania
+Jezyk::zasady_skladni	./inc/Jezyk.h	/^        string zasady_skladni[];$/;"	m	class:Jezyk	access:private
+Jezyk::zasady_skladni	./inc/galeria_klas_Zbrzezniak29781.h	/^        string zasady_skladni[];$/;"	m	class:Jezyk	access:private
+Jezyk_h	./inc/Jezyk.h	2;"	d
+Jezyk_martwy	./inc/Jezyk_martwy.h	/^class Jezyk_martwy: public Jezyk$/;"	c	inherits:Jezyk
+Jezyk_martwy	./inc/Jezyk_martwy.h	2;"	d
+Jezyk_martwy	./inc/galeria_klas_Zbrzezniak29781.h	/^class Jezyk_martwy: public Jezyk$/;"	c	inherits:Jezyk
+Jezyk_martwy::dodaj_zasade_wymowy	./inc/Jezyk_martwy.h	/^        void dodaj_zasade_wymowy (string nazwa_zasady);$/;"	p	class:Jezyk_martwy	access:public	signature:(string nazwa_zasady)
+Jezyk_martwy::dodaj_zasade_wymowy	./inc/galeria_klas_Zbrzezniak29781.h	/^        void dodaj_zasade_wymowy (string nazwa_zasady);$/;"	p	class:Jezyk_martwy	access:public	signature:(string nazwa_zasady)
+Jezyk_martwy::pokaz_zawartosc	./inc/Jezyk_martwy.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:Jezyk_martwy	access:public	signature:()
+Jezyk_martwy::pokaz_zawartosc	./inc/galeria_klas_Zbrzezniak29781.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:Jezyk_martwy	access:public	signature:()
+Jezyk_martwy::posiada_slownik	./inc/Jezyk_martwy.h	/^        bool posiada_slownik;$/;"	m	class:Jezyk_martwy	access:private
+Jezyk_martwy::posiada_slownik	./inc/galeria_klas_Zbrzezniak29781.h	/^        bool posiada_slownik;$/;"	m	class:Jezyk_martwy	access:private
+Jezyk_martwy::slownik	./inc/Jezyk_martwy.h	/^        Slownik slownik;$/;"	m	class:Jezyk_martwy	access:private
+Jezyk_martwy::slownik	./inc/galeria_klas_Zbrzezniak29781.h	/^        Slownik slownik;$/;"	m	class:Jezyk_martwy	access:private
+Jezyk_martwy::udokumentowane_zasady_wymowy	./inc/Jezyk_martwy.h	/^        bool udokumentowane_zasady_wymowy;$/;"	m	class:Jezyk_martwy	access:private
+Jezyk_martwy::udokumentowane_zasady_wymowy	./inc/galeria_klas_Zbrzezniak29781.h	/^        bool udokumentowane_zasady_wymowy;$/;"	m	class:Jezyk_martwy	access:private
+Jezyk_martwy::unikalne_pismo	./inc/Jezyk_martwy.h	/^        bool unikalne_pismo;$/;"	m	class:Jezyk_martwy	access:private
+Jezyk_martwy::unikalne_pismo	./inc/galeria_klas_Zbrzezniak29781.h	/^        bool unikalne_pismo;$/;"	m	class:Jezyk_martwy	access:private
+Jezyk_martwy::ustaw_posiada_slownik	./inc/Jezyk_martwy.h	/^        void ustaw_posiada_slownik (bool posiada_slownik);$/;"	p	class:Jezyk_martwy	access:public	signature:(bool posiada_slownik)
+Jezyk_martwy::ustaw_posiada_slownik	./inc/galeria_klas_Zbrzezniak29781.h	/^        void ustaw_posiada_slownik (bool posiada_slownik);$/;"	p	class:Jezyk_martwy	access:public	signature:(bool posiada_slownik)
+Jezyk_martwy::ustaw_udokumentowane_zasady_wymowy	./inc/Jezyk_martwy.h	/^        void ustaw_udokumentowane_zasady_wymowy (bool udokumentowane_zasady_wymowy);$/;"	p	class:Jezyk_martwy	access:public	signature:(bool udokumentowane_zasady_wymowy)
+Jezyk_martwy::ustaw_udokumentowane_zasady_wymowy	./inc/galeria_klas_Zbrzezniak29781.h	/^        void ustaw_udokumentowane_zasady_wymowy (bool udokumentowane_zasady_wymowy);$/;"	p	class:Jezyk_martwy	access:public	signature:(bool udokumentowane_zasady_wymowy)
+Jezyk_martwy::ustaw_unikalne_pismo	./inc/Jezyk_martwy.h	/^        void ustaw_unikalne_pismo (bool unikalne_pismo);$/;"	p	class:Jezyk_martwy	access:public	signature:(bool unikalne_pismo)
+Jezyk_martwy::ustaw_unikalne_pismo	./inc/galeria_klas_Zbrzezniak29781.h	/^        void ustaw_unikalne_pismo (bool unikalne_pismo);$/;"	p	class:Jezyk_martwy	access:public	signature:(bool unikalne_pismo)
+Jezyk_martwy::zasady_wymowy	./inc/Jezyk_martwy.h	/^        string zasady_wymowy[];$/;"	m	class:Jezyk_martwy	access:private
+Jezyk_martwy::zasady_wymowy	./inc/galeria_klas_Zbrzezniak29781.h	/^        string zasady_wymowy[];$/;"	m	class:Jezyk_martwy	access:private
+Jezyk_migowy	./inc/Jezyk_migowy.h	/^class Jezyk_migowy: public Jezyk_naturalny$/;"	c	inherits:Jezyk_naturalny
+Jezyk_migowy	./inc/Jezyk_migowy.h	2;"	d
+Jezyk_migowy	./inc/galeria_klas_Zbrzezniak29781.h	/^class Jezyk_migowy: public Jezyk_naturalny$/;"	c	inherits:Jezyk_naturalny
+Jezyk_migowy::alfabet_jednoreczny	./inc/Jezyk_migowy.h	/^        bool alfabet_jednoreczny;$/;"	m	class:Jezyk_migowy	access:private
+Jezyk_migowy::alfabet_jednoreczny	./inc/galeria_klas_Zbrzezniak29781.h	/^        bool alfabet_jednoreczny;$/;"	m	class:Jezyk_migowy	access:private
+Jezyk_migowy::jezyk_wzorcowy	./inc/Jezyk_migowy.h	/^        string jezyk_wzorcowy;$/;"	m	class:Jezyk_migowy	access:private
+Jezyk_migowy::jezyk_wzorcowy	./inc/galeria_klas_Zbrzezniak29781.h	/^        string jezyk_wzorcowy;$/;"	m	class:Jezyk_migowy	access:private
+Jezyk_migowy::podaj_jezyk_wzorcowy	./inc/Jezyk_migowy.h	/^        void podaj_jezyk_wzorcowy(string jezyk_wzorcowy);$/;"	p	class:Jezyk_migowy	access:public	signature:(string jezyk_wzorcowy)
+Jezyk_migowy::podaj_jezyk_wzorcowy	./inc/galeria_klas_Zbrzezniak29781.h	/^        void podaj_jezyk_wzorcowy(string jezyk_wzorcowy);$/;"	p	class:Jezyk_migowy	access:public	signature:(string jezyk_wzorcowy)
+Jezyk_migowy::pokaz_zawartosc	./inc/Jezyk_migowy.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:Jezyk_migowy	access:public	signature:()
+Jezyk_migowy::pokaz_zawartosc	./inc/galeria_klas_Zbrzezniak29781.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:Jezyk_migowy	access:public	signature:()
+Jezyk_migowy::ustaw_alfabet_jednoreczny	./inc/Jezyk_migowy.h	/^        void ustaw_alfabet_jednoreczny (bool alfabet_jednoreczny);$/;"	p	class:Jezyk_migowy	access:public	signature:(bool alfabet_jednoreczny)
+Jezyk_migowy::ustaw_alfabet_jednoreczny	./inc/galeria_klas_Zbrzezniak29781.h	/^        void ustaw_alfabet_jednoreczny (bool alfabet_jednoreczny);$/;"	p	class:Jezyk_migowy	access:public	signature:(bool alfabet_jednoreczny)
+Jezyk_naturalny	./inc/Jezyk_naturalny.h	/^class Jezyk_naturalny: public Jezyk$/;"	c	inherits:Jezyk
+Jezyk_naturalny	./inc/galeria_klas_Zbrzezniak29781.h	/^    Jezyk_naturalny();$/;"	p	class:Jezyk_naturalny	access:public	signature:()
+Jezyk_naturalny	./inc/galeria_klas_Zbrzezniak29781.h	/^class Jezyk_naturalny: public Jezyk$/;"	c	inherits:Jezyk
+Jezyk_naturalny	./src/Interfejs.cpp	/^Jezyk_naturalny::Jezyk_naturalny()$/;"	f	class:Jezyk_naturalny	signature:()
+Jezyk_naturalny::Jezyk_naturalny	./inc/galeria_klas_Zbrzezniak29781.h	/^    Jezyk_naturalny();$/;"	p	class:Jezyk_naturalny	access:public	signature:()
+Jezyk_naturalny::Jezyk_naturalny	./src/Interfejs.cpp	/^Jezyk_naturalny::Jezyk_naturalny()$/;"	f	class:Jezyk_naturalny	signature:()
+Jezyk_naturalny::dodaj_czas	./inc/Jezyk_naturalny.h	/^        void dodaj_czas (string nazwa_czasu);$/;"	p	class:Jezyk_naturalny	access:public	signature:(string nazwa_czasu)
+Jezyk_naturalny::dodaj_czas	./inc/galeria_klas_Zbrzezniak29781.h	/^        void dodaj_czas (string nazwa_czasu);$/;"	p	class:Jezyk_naturalny	access:public	signature:(string nazwa_czasu)
+Jezyk_naturalny::dodaj_kraj_uzywania	./inc/Jezyk_naturalny.h	/^        void dodaj_kraj_uzywania (string kraj);$/;"	p	class:Jezyk_naturalny	access:public	signature:(string kraj)
+Jezyk_naturalny::dodaj_kraj_uzywania	./inc/galeria_klas_Zbrzezniak29781.h	/^        void dodaj_kraj_uzywania (string kraj);$/;"	p	class:Jezyk_naturalny	access:public	signature:(string kraj)
+Jezyk_naturalny::dodaj_zasade_gram	./inc/Jezyk_naturalny.h	/^        void dodaj_zasade_gram (string nazwa_zasady);$/;"	p	class:Jezyk_naturalny	access:public	signature:(string nazwa_zasady)
+Jezyk_naturalny::dodaj_zasade_gram	./inc/galeria_klas_Zbrzezniak29781.h	/^        void dodaj_zasade_gram (string nazwa_zasady);$/;"	p	class:Jezyk_naturalny	access:public	signature:(string nazwa_zasady)
+Jezyk_naturalny::dodaj_zasade_wymowy	./inc/Jezyk_naturalny.h	/^        void dodaj_zasade_wymowy (string nazwa_zasady);$/;"	p	class:Jezyk_naturalny	access:public	signature:(string nazwa_zasady)
+Jezyk_naturalny::dodaj_zasade_wymowy	./inc/galeria_klas_Zbrzezniak29781.h	/^        void dodaj_zasade_wymowy (string nazwa_zasady);$/;"	p	class:Jezyk_naturalny	access:public	signature:(string nazwa_zasady)
+Jezyk_naturalny::kraje_uzywania	./inc/Jezyk_naturalny.h	/^        string kraje_uzywania[];$/;"	m	class:Jezyk_naturalny	access:private
+Jezyk_naturalny::kraje_uzywania	./inc/galeria_klas_Zbrzezniak29781.h	/^        string kraje_uzywania[];$/;"	m	class:Jezyk_naturalny	access:private
+Jezyk_naturalny::lista_czasow_gramatycznych	./inc/Jezyk_naturalny.h	/^        string lista_czasow_gramatycznych[];$/;"	m	class:Jezyk_naturalny	access:private
+Jezyk_naturalny::lista_czasow_gramatycznych	./inc/galeria_klas_Zbrzezniak29781.h	/^        string lista_czasow_gramatycznych[];$/;"	m	class:Jezyk_naturalny	access:private
+Jezyk_naturalny::pokaz_zawartosc	./inc/Jezyk_naturalny.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:Jezyk_naturalny	access:public	signature:()
+Jezyk_naturalny::pokaz_zawartosc	./inc/galeria_klas_Zbrzezniak29781.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:Jezyk_naturalny	access:public	signature:()
+Jezyk_naturalny::pokaz_zawartosc	./src/Interfejs.cpp	/^void Jezyk_naturalny::pokaz_zawartosc(){};$/;"	f	class:Jezyk_naturalny	signature:()
+Jezyk_naturalny::posiada_rodzajniki	./inc/Jezyk_naturalny.h	/^        bool posiada_rodzajniki;$/;"	m	class:Jezyk_naturalny	access:private
+Jezyk_naturalny::posiada_rodzajniki	./inc/galeria_klas_Zbrzezniak29781.h	/^        bool posiada_rodzajniki;$/;"	m	class:Jezyk_naturalny	access:private
+Jezyk_naturalny::przetlumacz	./inc/Jezyk_naturalny.h	/^        string przetlumacz (string tekst_wejsciowy);$/;"	p	class:Jezyk_naturalny	access:public	signature:(string tekst_wejsciowy)
+Jezyk_naturalny::przetlumacz	./inc/galeria_klas_Zbrzezniak29781.h	/^        string przetlumacz (string tekst_wejsciowy);$/;"	p	class:Jezyk_naturalny	access:public	signature:(string tekst_wejsciowy)
+Jezyk_naturalny::slownik	./inc/Jezyk_naturalny.h	/^        Slownik slownik;$/;"	m	class:Jezyk_naturalny	access:private
+Jezyk_naturalny::slownik	./inc/galeria_klas_Zbrzezniak29781.h	/^        Slownik slownik;$/;"	m	class:Jezyk_naturalny	access:private
+Jezyk_naturalny::ustaw_posiada_rodzajniki	./inc/Jezyk_naturalny.h	/^        void ustaw_posiada_rodzajniki (bool posiada_rodzajniki);$/;"	p	class:Jezyk_naturalny	access:public	signature:(bool posiada_rodzajniki)
+Jezyk_naturalny::ustaw_posiada_rodzajniki	./inc/galeria_klas_Zbrzezniak29781.h	/^        void ustaw_posiada_rodzajniki (bool posiada_rodzajniki);$/;"	p	class:Jezyk_naturalny	access:public	signature:(bool posiada_rodzajniki)
+Jezyk_naturalny::zasady_gramatyczne	./inc/Jezyk_naturalny.h	/^        string zasady_gramatyczne[];$/;"	m	class:Jezyk_naturalny	access:private
+Jezyk_naturalny::zasady_gramatyczne	./inc/galeria_klas_Zbrzezniak29781.h	/^        string zasady_gramatyczne[];$/;"	m	class:Jezyk_naturalny	access:private
+Jezyk_naturalny::zasady_wymowy	./inc/Jezyk_naturalny.h	/^        string zasady_wymowy[];$/;"	m	class:Jezyk_naturalny	access:private
+Jezyk_naturalny::zasady_wymowy	./inc/galeria_klas_Zbrzezniak29781.h	/^        string zasady_wymowy[];$/;"	m	class:Jezyk_naturalny	access:private
+Jezyk_naturalny_h	./inc/Jezyk_naturalny.h	2;"	d
+Jezyk_programowania	./inc/Jezyk_programowania.h	/^class Jezyk_programowania: public Jezyk$/;"	c	inherits:Jezyk
+Jezyk_programowania	./inc/Jezyk_programowania.h	2;"	d
+Jezyk_programowania	./inc/galeria_klas_Zbrzezniak29781.h	/^class Jezyk_programowania: public Jezyk$/;"	c	inherits:Jezyk
+Jezyk_programowania::dodaj_znajomosc_algorytmu	./inc/Jezyk_programowania.h	/^        void dodaj_znajomosc_algorytmu (string nazwa_konstrukcji_algorytmu);$/;"	p	class:Jezyk_programowania	access:public	signature:(string nazwa_konstrukcji_algorytmu)
+Jezyk_programowania::dodaj_znajomosc_algorytmu	./inc/galeria_klas_Zbrzezniak29781.h	/^        void dodaj_znajomosc_algorytmu (string nazwa_konstrukcji_algorytmu);$/;"	p	class:Jezyk_programowania	access:public	signature:(string nazwa_konstrukcji_algorytmu)
+Jezyk_programowania::dodaj_znajomosc_biblioteki	./inc/Jezyk_programowania.h	/^        void dodaj_znajomosc_biblioteki (string nazwa_biblioteki);$/;"	p	class:Jezyk_programowania	access:public	signature:(string nazwa_biblioteki)
+Jezyk_programowania::dodaj_znajomosc_biblioteki	./inc/galeria_klas_Zbrzezniak29781.h	/^        void dodaj_znajomosc_biblioteki (string nazwa_biblioteki);$/;"	p	class:Jezyk_programowania	access:public	signature:(string nazwa_biblioteki)
+Jezyk_programowania::jest_obiektowy	./inc/Jezyk_programowania.h	/^        bool jest_obiektowy;$/;"	m	class:Jezyk_programowania	access:private
+Jezyk_programowania::jest_obiektowy	./inc/galeria_klas_Zbrzezniak29781.h	/^        bool jest_obiektowy;$/;"	m	class:Jezyk_programowania	access:private
+Jezyk_programowania::pokaz_zawartosc	./inc/Jezyk_programowania.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:Jezyk_programowania	access:public	signature:()
+Jezyk_programowania::pokaz_zawartosc	./inc/galeria_klas_Zbrzezniak29781.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:Jezyk_programowania	access:public	signature:()
+Jezyk_programowania::posiada_skladnie_klamrowa	./inc/Jezyk_programowania.h	/^        bool posiada_skladnie_klamrowa;$/;"	m	class:Jezyk_programowania	access:private
+Jezyk_programowania::posiada_skladnie_klamrowa	./inc/galeria_klas_Zbrzezniak29781.h	/^        bool posiada_skladnie_klamrowa;$/;"	m	class:Jezyk_programowania	access:private
+Jezyk_programowania::zamien_kod_na_obiektowy	./inc/Jezyk_programowania.h	/^        char* zamien_kod_na_obiektowy (char *kod);$/;"	p	class:Jezyk_programowania	access:public	signature:(char *kod)
+Jezyk_programowania::zamien_kod_na_obiektowy	./inc/galeria_klas_Zbrzezniak29781.h	/^        char* zamien_kod_na_obiektowy (char *kod);$/;"	p	class:Jezyk_programowania	access:public	signature:(char *kod)
+Jezyk_programowania::znane_algorytmy	./inc/Jezyk_programowania.h	/^        string znane_algorytmy[];$/;"	m	class:Jezyk_programowania	access:private
+Jezyk_programowania::znane_algorytmy	./inc/galeria_klas_Zbrzezniak29781.h	/^        string znane_algorytmy[];$/;"	m	class:Jezyk_programowania	access:private
+Jezyk_programowania::znane_biblioteki	./inc/Jezyk_programowania.h	/^        string znane_biblioteki[];$/;"	m	class:Jezyk_programowania	access:private
+Jezyk_programowania::znane_biblioteki	./inc/galeria_klas_Zbrzezniak29781.h	/^        string znane_biblioteki[];$/;"	m	class:Jezyk_programowania	access:private
+Jezyk_sztuczny	./inc/Jezyk_sztuczny.h	/^class Jezyk_sztuczny: public Jezyk_naturalny$/;"	c	inherits:Jezyk_naturalny
+Jezyk_sztuczny	./inc/galeria_klas_Zbrzezniak29781.h	/^    Jezyk_sztuczny(string _jezykotworca, Cel_utworzenia _cel_utworzenia,$/;"	p	class:Jezyk_sztuczny	access:public	signature:(string _jezykotworca, Cel_utworzenia _cel_utworzenia, string _jezyk_wzorcowy, bool _jest_w_uzyciu)
+Jezyk_sztuczny	./inc/galeria_klas_Zbrzezniak29781.h	/^class Jezyk_sztuczny: public Jezyk_naturalny$/;"	c	inherits:Jezyk_naturalny
+Jezyk_sztuczny	./src/Interfejs.cpp	/^Jezyk_sztuczny::Jezyk_sztuczny(string _jezykotworca, Cel_utworzenia _cel_utworzenia, string _jezyk_wzorcowy, bool _jest_w_uzyciu)$/;"	f	class:Jezyk_sztuczny	signature:(string _jezykotworca, Cel_utworzenia _cel_utworzenia, string _jezyk_wzorcowy, bool _jest_w_uzyciu)
+Jezyk_sztuczny	./src/Jezyk_sztuczny.cpp	/^Jezyk_sztuczny::Jezyk_sztuczny(string _jezykotworca,$/;"	f	class:Jezyk_sztuczny	signature:(string _jezykotworca, Cel_utworzenia _cel_utworzenia, string _jezyk_wzorcowy, bool _jest_w_uzyciu, string _lista_czasow_gram[], bool _posiada_rodzajniki, string _kraje_uzywania[], string _zasady_gramatyczne[], string _zasady_wymowy[], Poziom_trudnosci _poziom_trudnosci, Poziom_zaawansowania _poziom_zaawansowania, string _nauczyciel, float _lat_nauki, string _zasady_skladni[])
+Jezyk_sztuczny::Cel_utworzenia	./inc/Jezyk_sztuczny.h	/^        enum Cel_utworzenia {sztuka, komunikacja, szyfrowanie_wiadomosci} cel_utworzenia;$/;"	g	class:Jezyk_sztuczny	access:private
+Jezyk_sztuczny::Cel_utworzenia	./inc/galeria_klas_Zbrzezniak29781.h	/^        enum Cel_utworzenia {sztuka, komunikacja, szyfrowanie_wiadomosci} cel_utworzenia;$/;"	g	class:Jezyk_sztuczny	access:public
+Jezyk_sztuczny::Jezyk_sztuczny	./inc/galeria_klas_Zbrzezniak29781.h	/^    Jezyk_sztuczny(string _jezykotworca, Cel_utworzenia _cel_utworzenia,$/;"	p	class:Jezyk_sztuczny	access:public	signature:(string _jezykotworca, Cel_utworzenia _cel_utworzenia, string _jezyk_wzorcowy, bool _jest_w_uzyciu)
+Jezyk_sztuczny::Jezyk_sztuczny	./src/Interfejs.cpp	/^Jezyk_sztuczny::Jezyk_sztuczny(string _jezykotworca, Cel_utworzenia _cel_utworzenia, string _jezyk_wzorcowy, bool _jest_w_uzyciu)$/;"	f	class:Jezyk_sztuczny	signature:(string _jezykotworca, Cel_utworzenia _cel_utworzenia, string _jezyk_wzorcowy, bool _jest_w_uzyciu)
+Jezyk_sztuczny::Jezyk_sztuczny	./src/Jezyk_sztuczny.cpp	/^Jezyk_sztuczny::Jezyk_sztuczny(string _jezykotworca,$/;"	f	class:Jezyk_sztuczny	signature:(string _jezykotworca, Cel_utworzenia _cel_utworzenia, string _jezyk_wzorcowy, bool _jest_w_uzyciu, string _lista_czasow_gram[], bool _posiada_rodzajniki, string _kraje_uzywania[], string _zasady_gramatyczne[], string _zasady_wymowy[], Poziom_trudnosci _poziom_trudnosci, Poziom_zaawansowania _poziom_zaawansowania, string _nauczyciel, float _lat_nauki, string _zasady_skladni[])
+Jezyk_sztuczny::cel_utworzenia	./inc/Jezyk_sztuczny.h	/^        enum Cel_utworzenia {sztuka, komunikacja, szyfrowanie_wiadomosci} cel_utworzenia;$/;"	m	class:Jezyk_sztuczny	typeref:enum:Jezyk_sztuczny::Cel_utworzenia	access:private
+Jezyk_sztuczny::cel_utworzenia	./inc/galeria_klas_Zbrzezniak29781.h	/^        enum Cel_utworzenia {sztuka, komunikacja, szyfrowanie_wiadomosci} cel_utworzenia;$/;"	m	class:Jezyk_sztuczny	typeref:enum:Jezyk_sztuczny::Cel_utworzenia	access:public
+Jezyk_sztuczny::jest_w_uzyciu	./inc/Jezyk_sztuczny.h	/^        bool jest_w_uzyciu;$/;"	m	class:Jezyk_sztuczny	access:private
+Jezyk_sztuczny::jest_w_uzyciu	./inc/galeria_klas_Zbrzezniak29781.h	/^        bool jest_w_uzyciu;$/;"	m	class:Jezyk_sztuczny	access:private
+Jezyk_sztuczny::jezyk_wzorcowy	./inc/Jezyk_sztuczny.h	/^        string jezyk_wzorcowy;$/;"	m	class:Jezyk_sztuczny	access:private
+Jezyk_sztuczny::jezyk_wzorcowy	./inc/galeria_klas_Zbrzezniak29781.h	/^        string jezyk_wzorcowy;$/;"	m	class:Jezyk_sztuczny	access:private
+Jezyk_sztuczny::jezykotworca	./inc/Jezyk_sztuczny.h	/^        string jezykotworca;$/;"	m	class:Jezyk_sztuczny	access:private
+Jezyk_sztuczny::jezykotworca	./inc/galeria_klas_Zbrzezniak29781.h	/^        string jezykotworca;$/;"	m	class:Jezyk_sztuczny	access:private
+Jezyk_sztuczny::komunikacja	./inc/Jezyk_sztuczny.h	/^        enum Cel_utworzenia {sztuka, komunikacja, szyfrowanie_wiadomosci} cel_utworzenia;$/;"	e	enum:Jezyk_sztuczny::Cel_utworzenia
+Jezyk_sztuczny::komunikacja	./inc/galeria_klas_Zbrzezniak29781.h	/^        enum Cel_utworzenia {sztuka, komunikacja, szyfrowanie_wiadomosci} cel_utworzenia;$/;"	e	enum:Jezyk_sztuczny::Cel_utworzenia
+Jezyk_sztuczny::podaj_cel_utworzenia	./inc/Jezyk_sztuczny.h	/^        void podaj_cel_utworzenia(enum Cel_utworzenia cel_utworzenia);$/;"	p	class:Jezyk_sztuczny	access:public	signature:(enum Cel_utworzenia cel_utworzenia)
+Jezyk_sztuczny::podaj_cel_utworzenia	./inc/galeria_klas_Zbrzezniak29781.h	/^        void podaj_cel_utworzenia(enum Cel_utworzenia cel_utworzenia);$/;"	p	class:Jezyk_sztuczny	access:public	signature:(enum Cel_utworzenia cel_utworzenia)
+Jezyk_sztuczny::podaj_jezyk_wzorcowy	./inc/Jezyk_sztuczny.h	/^        void podaj_jezyk_wzorcowy (string jezyk_wzorcowy);$/;"	p	class:Jezyk_sztuczny	access:public	signature:(string jezyk_wzorcowy)
+Jezyk_sztuczny::podaj_jezyk_wzorcowy	./inc/galeria_klas_Zbrzezniak29781.h	/^        void podaj_jezyk_wzorcowy (string jezyk_wzorcowy);$/;"	p	class:Jezyk_sztuczny	access:public	signature:(string jezyk_wzorcowy)
+Jezyk_sztuczny::podaj_jezykotworce	./inc/Jezyk_sztuczny.h	/^        void podaj_jezykotworce(string jezykotworca);$/;"	p	class:Jezyk_sztuczny	access:public	signature:(string jezykotworca)
+Jezyk_sztuczny::podaj_jezykotworce	./inc/galeria_klas_Zbrzezniak29781.h	/^        void podaj_jezykotworce(string jezykotworca);$/;"	p	class:Jezyk_sztuczny	access:public	signature:(string jezykotworca)
+Jezyk_sztuczny::pokaz_zawartosc	./inc/Jezyk_sztuczny.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:Jezyk_sztuczny	access:public	signature:()
+Jezyk_sztuczny::pokaz_zawartosc	./inc/galeria_klas_Zbrzezniak29781.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:Jezyk_sztuczny	access:public	signature:()
+Jezyk_sztuczny::pokaz_zawartosc	./src/Interfejs.cpp	/^void Jezyk_sztuczny::pokaz_zawartosc()$/;"	f	class:Jezyk_sztuczny	signature:()
+Jezyk_sztuczny::sztuka	./inc/Jezyk_sztuczny.h	/^        enum Cel_utworzenia {sztuka, komunikacja, szyfrowanie_wiadomosci} cel_utworzenia;$/;"	e	enum:Jezyk_sztuczny::Cel_utworzenia
+Jezyk_sztuczny::sztuka	./inc/galeria_klas_Zbrzezniak29781.h	/^        enum Cel_utworzenia {sztuka, komunikacja, szyfrowanie_wiadomosci} cel_utworzenia;$/;"	e	enum:Jezyk_sztuczny::Cel_utworzenia
+Jezyk_sztuczny::szyfrowanie_wiadomosci	./inc/Jezyk_sztuczny.h	/^        enum Cel_utworzenia {sztuka, komunikacja, szyfrowanie_wiadomosci} cel_utworzenia;$/;"	e	enum:Jezyk_sztuczny::Cel_utworzenia
+Jezyk_sztuczny::szyfrowanie_wiadomosci	./inc/galeria_klas_Zbrzezniak29781.h	/^        enum Cel_utworzenia {sztuka, komunikacja, szyfrowanie_wiadomosci} cel_utworzenia;$/;"	e	enum:Jezyk_sztuczny::Cel_utworzenia
+Jezyk_sztuczny::ustaw_jest_w_uzyciu	./inc/Jezyk_sztuczny.h	/^        void ustaw_jest_w_uzyciu (bool jest_w_uzyciu);$/;"	p	class:Jezyk_sztuczny	access:public	signature:(bool jest_w_uzyciu)
+Jezyk_sztuczny::ustaw_jest_w_uzyciu	./inc/galeria_klas_Zbrzezniak29781.h	/^        void ustaw_jest_w_uzyciu (bool jest_w_uzyciu);$/;"	p	class:Jezyk_sztuczny	access:public	signature:(bool jest_w_uzyciu)
+Jezyk_sztuczny_h	./inc/Jezyk_sztuczny.h	2;"	d
+Kompilowany	./inc/Kompilowany.h	/^class Kompilowany$/;"	c
+Kompilowany	./inc/Kompilowany.h	2;"	d
+Kompilowany	./inc/galeria_klas_Zbrzezniak29781.h	/^class Kompilowany$/;"	c
+Kompilowany::dodaj_kompilator	./inc/Kompilowany.h	/^         void dodaj_kompilator(string kompilator);$/;"	p	class:Kompilowany	access:public	signature:(string kompilator)
+Kompilowany::dodaj_kompilator	./inc/galeria_klas_Zbrzezniak29781.h	/^         void dodaj_kompilator(string kompilator);$/;"	p	class:Kompilowany	access:public	signature:(string kompilator)
+Kompilowany::jezyk_programowania	./inc/Kompilowany.h	/^         Jezyk_programowania jezyk_programowania;$/;"	m	class:Kompilowany	access:private
+Kompilowany::jezyk_programowania	./inc/galeria_klas_Zbrzezniak29781.h	/^         Jezyk_programowania jezyk_programowania;$/;"	m	class:Kompilowany	access:private
+Kompilowany::kompilator	./inc/Kompilowany.h	/^         string kompilator;$/;"	m	class:Kompilowany	access:private
+Kompilowany::kompilator	./inc/galeria_klas_Zbrzezniak29781.h	/^         string kompilator;$/;"	m	class:Kompilowany	access:private
+Kompilowany::pobierz_jezyk	./inc/Kompilowany.h	/^         Jezyk_programowania * pobierz_jezyk();$/;"	p	class:Kompilowany	access:public	signature:()
+Kompilowany::pobierz_jezyk	./inc/galeria_klas_Zbrzezniak29781.h	/^         Jezyk_programowania * pobierz_jezyk();$/;"	p	class:Kompilowany	access:public	signature:()
+Kompilowany::posiada_funkcje_niskopoziomowe	./inc/Kompilowany.h	/^         bool posiada_funkcje_niskopoziomowe;$/;"	m	class:Kompilowany	access:private
+Kompilowany::posiada_funkcje_niskopoziomowe	./inc/galeria_klas_Zbrzezniak29781.h	/^         bool posiada_funkcje_niskopoziomowe;$/;"	m	class:Kompilowany	access:private
+Kompilowany::ustaw_posiada_funkcje_niskopoziomowe	./inc/Kompilowany.h	/^         void ustaw_posiada_funkcje_niskopoziomowe (bool posiada_funkcje_niskopoziomowe);$/;"	p	class:Kompilowany	access:public	signature:(bool posiada_funkcje_niskopoziomowe)
+Kompilowany::ustaw_posiada_funkcje_niskopoziomowe	./inc/galeria_klas_Zbrzezniak29781.h	/^         void ustaw_posiada_funkcje_niskopoziomowe (bool posiada_funkcje_niskopoziomowe);$/;"	p	class:Kompilowany	access:public	signature:(bool posiada_funkcje_niskopoziomowe)
+Poziom_trudnosci	./inc/Jezyk.h	/^        enum Poziom_trudnosci {latwy, srednio_trudny, trudny} poziom_trudnosci;$/;"	g	class:Jezyk	access:private
+Poziom_trudnosci	./inc/galeria_klas_Zbrzezniak29781.h	/^        enum Poziom_trudnosci {latwy, srednio_trudny, trudny} poziom_trudnosci;$/;"	g	class:Jezyk	access:private
+Poziom_zaawansowania	./inc/Jezyk.h	/^        enum Poziom_zaawansowania {poczatkujacy, sredniozaawansowany, zaawansowany, biegly} poziom_zaawasowania;$/;"	g	class:Jezyk	access:private
+Poziom_zaawansowania	./inc/galeria_klas_Zbrzezniak29781.h	/^        enum Poziom_zaawansowania {poczatkujacy, sredniozaawansowany, zaawansowany, biegly} poziom_zaawasowania;$/;"	g	class:Jezyk	access:private
+Romanskie	./inc/Romanskie.h	/^class Romanskie: public Jezyk_naturalny$/;"	c	inherits:Jezyk_naturalny
+Romanskie	./inc/Romanskie.h	2;"	d
+Romanskie	./inc/galeria_klas_Zbrzezniak29781.h	/^class Romanskie: public Jezyk_naturalny$/;"	c	inherits:Jezyk_naturalny
+Romanskie::dodaj_znak_niestandardowy	./inc/Romanskie.h	/^        void dodaj_znak_niestandardowy (char z);$/;"	p	class:Romanskie	access:public	signature:(char z)
+Romanskie::dodaj_znak_niestandardowy	./inc/galeria_klas_Zbrzezniak29781.h	/^        void dodaj_znak_niestandardowy (char z);$/;"	p	class:Romanskie	access:public	signature:(char z)
+Romanskie::liaison	./inc/Romanskie.h	/^        bool liaison;$/;"	m	class:Romanskie	access:private
+Romanskie::liaison	./inc/galeria_klas_Zbrzezniak29781.h	/^        bool liaison;$/;"	m	class:Romanskie	access:private
+Romanskie::pokaz_zawartosc	./inc/Romanskie.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:Romanskie	access:public	signature:()
+Romanskie::pokaz_zawartosc	./inc/galeria_klas_Zbrzezniak29781.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:Romanskie	access:public	signature:()
+Romanskie::ustaw_liaison	./inc/Romanskie.h	/^        void ustaw_liaison(bool liaison);$/;"	p	class:Romanskie	access:public	signature:(bool liaison)
+Romanskie::ustaw_liaison	./inc/galeria_klas_Zbrzezniak29781.h	/^        void ustaw_liaison(bool liaison);$/;"	p	class:Romanskie	access:public	signature:(bool liaison)
+Romanskie::znaki_niestandardowe	./inc/Romanskie.h	/^        char znaki_niestandardowe[];$/;"	m	class:Romanskie	access:private
+Romanskie::znaki_niestandardowe	./inc/galeria_klas_Zbrzezniak29781.h	/^        char znaki_niestandardowe[];$/;"	m	class:Romanskie	access:private
+Slowianskie	./inc/Slowianskie.h	/^class Slowianskie: public Jezyk_naturalny$/;"	c	inherits:Jezyk_naturalny
+Slowianskie	./inc/Slowianskie.h	2;"	d
+Slowianskie	./inc/galeria_klas_Zbrzezniak29781.h	/^class Slowianskie: public Jezyk_naturalny$/;"	c	inherits:Jezyk_naturalny
+Slowianskie::alfabet	./inc/Slowianskie.h	/^        string alfabet[];$/;"	m	class:Slowianskie	access:private
+Slowianskie::alfabet	./inc/galeria_klas_Zbrzezniak29781.h	/^        string alfabet[];$/;"	m	class:Slowianskie	access:private
+Slowianskie::dodaj_alfabet	./inc/Slowianskie.h	/^        void dodaj_alfabet (string alfabet);$/;"	p	class:Slowianskie	access:public	signature:(string alfabet)
+Slowianskie::dodaj_alfabet	./inc/galeria_klas_Zbrzezniak29781.h	/^        void dodaj_alfabet (string alfabet);$/;"	p	class:Slowianskie	access:public	signature:(string alfabet)
+Slowianskie::dodaj_przypadek	./inc/Slowianskie.h	/^        void dodaj_przypadek(string przypadek);$/;"	p	class:Slowianskie	access:public	signature:(string przypadek)
+Slowianskie::dodaj_przypadek	./inc/galeria_klas_Zbrzezniak29781.h	/^        void dodaj_przypadek(string przypadek);$/;"	p	class:Slowianskie	access:public	signature:(string przypadek)
+Slowianskie::pokaz_zawartosc	./inc/Slowianskie.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:Slowianskie	access:public	signature:()
+Slowianskie::pokaz_zawartosc	./inc/galeria_klas_Zbrzezniak29781.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:Slowianskie	access:public	signature:()
+Slowianskie::przypadki	./inc/Slowianskie.h	/^        string przypadki[];$/;"	m	class:Slowianskie	access:private
+Slowianskie::przypadki	./inc/galeria_klas_Zbrzezniak29781.h	/^        string przypadki[];$/;"	m	class:Slowianskie	access:private
+Slownik	./inc/Slownik.h	/^class Slownik$/;"	c
+Slownik	./inc/galeria_klas_Zbrzezniak29781.h	/^class Slownik$/;"	c
+Slownik::aktualizuj_wpis	./inc/Slownik.h	/^        void aktualizuj_wpis (string wpis_w_jezyku1, string wpis_w_jezyku2);$/;"	p	class:Slownik	access:public	signature:(string wpis_w_jezyku1, string wpis_w_jezyku2)
+Slownik::aktualizuj_wpis	./inc/galeria_klas_Zbrzezniak29781.h	/^        void aktualizuj_wpis (string wpis_w_jezyku1, string wpis_w_jezyku2);$/;"	p	class:Slownik	access:public	signature:(string wpis_w_jezyku1, string wpis_w_jezyku2)
+Slownik::dodaj_wpis	./inc/Slownik.h	/^        void dodaj_wpis(string wpis_w_jezyku1, string wpis_w_jezyku2);$/;"	p	class:Slownik	access:public	signature:(string wpis_w_jezyku1, string wpis_w_jezyku2)
+Slownik::dodaj_wpis	./inc/galeria_klas_Zbrzezniak29781.h	/^        void dodaj_wpis(string wpis_w_jezyku1, string wpis_w_jezyku2);$/;"	p	class:Slownik	access:public	signature:(string wpis_w_jezyku1, string wpis_w_jezyku2)
+Slownik::pokaz_wpis	./inc/Slownik.h	/^        void pokaz_wpis(string wpis);$/;"	p	class:Slownik	access:public	signature:(string wpis)
+Slownik::pokaz_wpis	./inc/galeria_klas_Zbrzezniak29781.h	/^        void pokaz_wpis(string wpis);$/;"	p	class:Slownik	access:public	signature:(string wpis)
+Slownik::slownik	./inc/Slownik.h	/^        map<string, string> slownik;$/;"	m	class:Slownik	access:private
+Slownik::slownik	./inc/galeria_klas_Zbrzezniak29781.h	/^        map<string, string> slownik;$/;"	m	class:Slownik	access:private
+Slownik_h	./inc/Slownik.h	2;"	d
+Uzytkownik	./inc/Uzytkownik.h	/^class Uzytkownik$/;"	c
+Uzytkownik	./inc/Uzytkownik.h	2;"	d
+Uzytkownik	./inc/galeria_klas_Zbrzezniak29781.h	/^class Uzytkownik$/;"	c
+Uzytkownik::czytaj_wiadomosc	./inc/Uzytkownik.h	/^        void czytaj_wiadomosc();$/;"	p	class:Uzytkownik	access:private	signature:()
+Uzytkownik::czytaj_wiadomosc	./inc/galeria_klas_Zbrzezniak29781.h	/^        void czytaj_wiadomosc();$/;"	p	class:Uzytkownik	access:private	signature:()
+Uzytkownik::imie_nazwisko	./inc/Uzytkownik.h	/^        string imie_nazwisko;$/;"	m	class:Uzytkownik	access:private
+Uzytkownik::imie_nazwisko	./inc/galeria_klas_Zbrzezniak29781.h	/^        string imie_nazwisko;$/;"	m	class:Uzytkownik	access:private
+Uzytkownik::opis	./inc/Uzytkownik.h	/^        string opis;$/;"	m	class:Uzytkownik	access:private
+Uzytkownik::opis	./inc/galeria_klas_Zbrzezniak29781.h	/^        string opis;$/;"	m	class:Uzytkownik	access:private
+Uzytkownik::pokaz_profil	./inc/Uzytkownik.h	/^        void pokaz_profil();$/;"	p	class:Uzytkownik	access:private	signature:()
+Uzytkownik::pokaz_profil	./inc/galeria_klas_Zbrzezniak29781.h	/^        void pokaz_profil();$/;"	p	class:Uzytkownik	access:private	signature:()
+Uzytkownik::polacz_komunikatorem	./inc/Uzytkownik.h	/^        void polacz_komunikatorem();$/;"	p	class:Uzytkownik	access:private	signature:()
+Uzytkownik::polacz_komunikatorem	./inc/galeria_klas_Zbrzezniak29781.h	/^        void polacz_komunikatorem();$/;"	p	class:Uzytkownik	access:private	signature:()
+Uzytkownik::utworz_profil	./inc/Uzytkownik.h	/^        void utworz_profil();$/;"	p	class:Uzytkownik	access:private	signature:()
+Uzytkownik::utworz_profil	./inc/galeria_klas_Zbrzezniak29781.h	/^        void utworz_profil();$/;"	p	class:Uzytkownik	access:private	signature:()
+Uzytkownik::wiek	./inc/Uzytkownik.h	/^        int wiek;$/;"	m	class:Uzytkownik	access:private
+Uzytkownik::wiek	./inc/galeria_klas_Zbrzezniak29781.h	/^        int wiek;$/;"	m	class:Uzytkownik	access:private
+Uzytkownik::wyslij_wiadomosc	./inc/Uzytkownik.h	/^        void wyslij_wiadomosc();$/;"	p	class:Uzytkownik	access:private	signature:()
+Uzytkownik::wyslij_wiadomosc	./inc/galeria_klas_Zbrzezniak29781.h	/^        void wyslij_wiadomosc();$/;"	p	class:Uzytkownik	access:private	signature:()
+Uzytkownik::zmien_profil	./inc/Uzytkownik.h	/^        void zmien_profil();$/;"	p	class:Uzytkownik	access:private	signature:()
+Uzytkownik::zmien_profil	./inc/galeria_klas_Zbrzezniak29781.h	/^        void zmien_profil();$/;"	p	class:Uzytkownik	access:private	signature:()
+Uzytkownik::znane_jezyki	./inc/Uzytkownik.h	/^        string znane_jezyki[];$/;"	m	class:Uzytkownik	access:private
+Uzytkownik::znane_jezyki	./inc/galeria_klas_Zbrzezniak29781.h	/^        string znane_jezyki[];$/;"	m	class:Uzytkownik	access:private
+akceptuj_uzytkownika	./inc/Administrator.h	/^        void akceptuj_uzytkownika(string imie_nazwisko);$/;"	p	class:Administrator	access:public	signature:(string imie_nazwisko)
+akceptuj_uzytkownika	./inc/galeria_klas_Zbrzezniak29781.h	/^        void akceptuj_uzytkownika(string imie_nazwisko);$/;"	p	class:Administrator	access:public	signature:(string imie_nazwisko)
+aktualizuj_baze_danych	./inc/Administrator.h	/^        void aktualizuj_baze_danych();$/;"	p	class:Administrator	access:public	signature:()
+aktualizuj_baze_danych	./inc/galeria_klas_Zbrzezniak29781.h	/^        void aktualizuj_baze_danych();$/;"	p	class:Administrator	access:public	signature:()
+aktualizuj_serwis	./inc/Administrator.h	/^        void aktualizuj_serwis();$/;"	p	class:Administrator	access:public	signature:()
+aktualizuj_serwis	./inc/galeria_klas_Zbrzezniak29781.h	/^        void aktualizuj_serwis();$/;"	p	class:Administrator	access:public	signature:()
+aktualizuj_wpis	./inc/Slownik.h	/^        void aktualizuj_wpis (string wpis_w_jezyku1, string wpis_w_jezyku2);$/;"	p	class:Slownik	access:public	signature:(string wpis_w_jezyku1, string wpis_w_jezyku2)
+aktualizuj_wpis	./inc/galeria_klas_Zbrzezniak29781.h	/^        void aktualizuj_wpis (string wpis_w_jezyku1, string wpis_w_jezyku2);$/;"	p	class:Slownik	access:public	signature:(string wpis_w_jezyku1, string wpis_w_jezyku2)
+aktualizuj_zawartosc	./inc/Jezyk.h	/^        void aktualizuj_zawartosc();$/;"	p	class:Jezyk	access:public	signature:()
+aktualizuj_zawartosc	./inc/galeria_klas_Zbrzezniak29781.h	/^        void aktualizuj_zawartosc();$/;"	p	class:Jezyk	access:public	signature:()
+alfabet	./inc/Slowianskie.h	/^        string alfabet[];$/;"	m	class:Slowianskie	access:private
+alfabet	./inc/galeria_klas_Zbrzezniak29781.h	/^        string alfabet[];$/;"	m	class:Slowianskie	access:private
+alfabet_jednoreczny	./inc/Jezyk_migowy.h	/^        bool alfabet_jednoreczny;$/;"	m	class:Jezyk_migowy	access:private
+alfabet_jednoreczny	./inc/galeria_klas_Zbrzezniak29781.h	/^        bool alfabet_jednoreczny;$/;"	m	class:Jezyk_migowy	access:private
+biegly	./inc/Jezyk.h	/^        enum Poziom_zaawansowania {poczatkujacy, sredniozaawansowany, zaawansowany, biegly} poziom_zaawasowania;$/;"	e	enum:Jezyk::Poziom_zaawansowania
+biegly	./inc/galeria_klas_Zbrzezniak29781.h	/^        enum Poziom_zaawansowania {poczatkujacy, sredniozaawansowany, zaawansowany, biegly} poziom_zaawasowania;$/;"	e	enum:Jezyk::Poziom_zaawansowania
+cel_utworzenia	./inc/Jezyk_sztuczny.h	/^        enum Cel_utworzenia {sztuka, komunikacja, szyfrowanie_wiadomosci} cel_utworzenia;$/;"	m	class:Jezyk_sztuczny	typeref:enum:Jezyk_sztuczny::Cel_utworzenia	access:private
+cel_utworzenia	./inc/galeria_klas_Zbrzezniak29781.h	/^        enum Cel_utworzenia {sztuka, komunikacja, szyfrowanie_wiadomosci} cel_utworzenia;$/;"	m	class:Jezyk_sztuczny	typeref:enum:Jezyk_sztuczny::Cel_utworzenia	access:public
+czytaj_wiadomosc	./inc/Uzytkownik.h	/^        void czytaj_wiadomosc();$/;"	p	class:Uzytkownik	access:private	signature:()
+czytaj_wiadomosc	./inc/galeria_klas_Zbrzezniak29781.h	/^        void czytaj_wiadomosc();$/;"	p	class:Uzytkownik	access:private	signature:()
+dodaj_alfabet	./inc/Slowianskie.h	/^        void dodaj_alfabet (string alfabet);$/;"	p	class:Slowianskie	access:public	signature:(string alfabet)
+dodaj_alfabet	./inc/galeria_klas_Zbrzezniak29781.h	/^        void dodaj_alfabet (string alfabet);$/;"	p	class:Slowianskie	access:public	signature:(string alfabet)
+dodaj_czas	./inc/Jezyk_naturalny.h	/^        void dodaj_czas (string nazwa_czasu);$/;"	p	class:Jezyk_naturalny	access:public	signature:(string nazwa_czasu)
+dodaj_czas	./inc/galeria_klas_Zbrzezniak29781.h	/^        void dodaj_czas (string nazwa_czasu);$/;"	p	class:Jezyk_naturalny	access:public	signature:(string nazwa_czasu)
+dodaj_interpretej	./inc/Interpretowany.h	/^         void dodaj_interpretej (string interpreter);$/;"	p	class:Interpretowany	access:public	signature:(string interpreter)
+dodaj_interpretej	./inc/galeria_klas_Zbrzezniak29781.h	/^         void dodaj_interpretej (string interpreter);$/;"	p	class:Interpretowany	access:public	signature:(string interpreter)
+dodaj_kompilator	./inc/Kompilowany.h	/^         void dodaj_kompilator(string kompilator);$/;"	p	class:Kompilowany	access:public	signature:(string kompilator)
+dodaj_kompilator	./inc/galeria_klas_Zbrzezniak29781.h	/^         void dodaj_kompilator(string kompilator);$/;"	p	class:Kompilowany	access:public	signature:(string kompilator)
+dodaj_kraj_uzywania	./inc/Jezyk_naturalny.h	/^        void dodaj_kraj_uzywania (string kraj);$/;"	p	class:Jezyk_naturalny	access:public	signature:(string kraj)
+dodaj_kraj_uzywania	./inc/galeria_klas_Zbrzezniak29781.h	/^        void dodaj_kraj_uzywania (string kraj);$/;"	p	class:Jezyk_naturalny	access:public	signature:(string kraj)
+dodaj_nauczyciela	./inc/Jezyk.h	/^        void dodaj_nauczyciela (string imie_nazwisko);$/;"	p	class:Jezyk	access:public	signature:(string imie_nazwisko)
+dodaj_nauczyciela	./inc/galeria_klas_Zbrzezniak29781.h	/^        void dodaj_nauczyciela (string imie_nazwisko);$/;"	p	class:Jezyk	access:public	signature:(string imie_nazwisko)
+dodaj_przypadek	./inc/Germanskie.h	/^        void dodaj_przypadek (string przypadek);$/;"	p	class:Germanskie	access:public	signature:(string przypadek)
+dodaj_przypadek	./inc/Slowianskie.h	/^        void dodaj_przypadek(string przypadek);$/;"	p	class:Slowianskie	access:public	signature:(string przypadek)
+dodaj_przypadek	./inc/galeria_klas_Zbrzezniak29781.h	/^        void dodaj_przypadek (string przypadek);$/;"	p	class:Germanskie	access:public	signature:(string przypadek)
+dodaj_przypadek	./inc/galeria_klas_Zbrzezniak29781.h	/^        void dodaj_przypadek(string przypadek);$/;"	p	class:Slowianskie	access:public	signature:(string przypadek)
+dodaj_wpis	./inc/Slownik.h	/^        void dodaj_wpis(string wpis_w_jezyku1, string wpis_w_jezyku2);$/;"	p	class:Slownik	access:public	signature:(string wpis_w_jezyku1, string wpis_w_jezyku2)
+dodaj_wpis	./inc/galeria_klas_Zbrzezniak29781.h	/^        void dodaj_wpis(string wpis_w_jezyku1, string wpis_w_jezyku2);$/;"	p	class:Slownik	access:public	signature:(string wpis_w_jezyku1, string wpis_w_jezyku2)
+dodaj_zasade_gram	./inc/Jezyk_naturalny.h	/^        void dodaj_zasade_gram (string nazwa_zasady);$/;"	p	class:Jezyk_naturalny	access:public	signature:(string nazwa_zasady)
+dodaj_zasade_gram	./inc/galeria_klas_Zbrzezniak29781.h	/^        void dodaj_zasade_gram (string nazwa_zasady);$/;"	p	class:Jezyk_naturalny	access:public	signature:(string nazwa_zasady)
+dodaj_zasade_skladni	./inc/Jezyk.h	/^        void dodaj_zasade_skladni (string nazwa_zasady);$/;"	p	class:Jezyk	access:public	signature:(string nazwa_zasady)
+dodaj_zasade_skladni	./inc/galeria_klas_Zbrzezniak29781.h	/^        void dodaj_zasade_skladni (string nazwa_zasady);$/;"	p	class:Jezyk	access:public	signature:(string nazwa_zasady)
+dodaj_zasade_wymowy	./inc/Jezyk_martwy.h	/^        void dodaj_zasade_wymowy (string nazwa_zasady);$/;"	p	class:Jezyk_martwy	access:public	signature:(string nazwa_zasady)
+dodaj_zasade_wymowy	./inc/Jezyk_naturalny.h	/^        void dodaj_zasade_wymowy (string nazwa_zasady);$/;"	p	class:Jezyk_naturalny	access:public	signature:(string nazwa_zasady)
+dodaj_zasade_wymowy	./inc/galeria_klas_Zbrzezniak29781.h	/^        void dodaj_zasade_wymowy (string nazwa_zasady);$/;"	p	class:Jezyk_martwy	access:public	signature:(string nazwa_zasady)
+dodaj_zasade_wymowy	./inc/galeria_klas_Zbrzezniak29781.h	/^        void dodaj_zasade_wymowy (string nazwa_zasady);$/;"	p	class:Jezyk_naturalny	access:public	signature:(string nazwa_zasady)
+dodaj_znajomosc_algorytmu	./inc/Jezyk_programowania.h	/^        void dodaj_znajomosc_algorytmu (string nazwa_konstrukcji_algorytmu);$/;"	p	class:Jezyk_programowania	access:public	signature:(string nazwa_konstrukcji_algorytmu)
+dodaj_znajomosc_algorytmu	./inc/galeria_klas_Zbrzezniak29781.h	/^        void dodaj_znajomosc_algorytmu (string nazwa_konstrukcji_algorytmu);$/;"	p	class:Jezyk_programowania	access:public	signature:(string nazwa_konstrukcji_algorytmu)
+dodaj_znajomosc_biblioteki	./inc/Jezyk_programowania.h	/^        void dodaj_znajomosc_biblioteki (string nazwa_biblioteki);$/;"	p	class:Jezyk_programowania	access:public	signature:(string nazwa_biblioteki)
+dodaj_znajomosc_biblioteki	./inc/galeria_klas_Zbrzezniak29781.h	/^        void dodaj_znajomosc_biblioteki (string nazwa_biblioteki);$/;"	p	class:Jezyk_programowania	access:public	signature:(string nazwa_biblioteki)
+dodaj_znak_niestandardowy	./inc/Germanskie.h	/^        void dodaj_znak_niestandardowy (char z);$/;"	p	class:Germanskie	access:public	signature:(char z)
+dodaj_znak_niestandardowy	./inc/Romanskie.h	/^        void dodaj_znak_niestandardowy (char z);$/;"	p	class:Romanskie	access:public	signature:(char z)
+dodaj_znak_niestandardowy	./inc/galeria_klas_Zbrzezniak29781.h	/^        void dodaj_znak_niestandardowy (char z);$/;"	p	class:Germanskie	access:public	signature:(char z)
+dodaj_znak_niestandardowy	./inc/galeria_klas_Zbrzezniak29781.h	/^        void dodaj_znak_niestandardowy (char z);$/;"	p	class:Romanskie	access:public	signature:(char z)
+imie_nazwisko	./inc/Uzytkownik.h	/^        string imie_nazwisko;$/;"	m	class:Uzytkownik	access:private
+imie_nazwisko	./inc/galeria_klas_Zbrzezniak29781.h	/^        string imie_nazwisko;$/;"	m	class:Uzytkownik	access:private
+interface_glowny	./inc/Interface.h	/^        void interface_glowny();$/;"	p	class:Interface	access:public	signature:()
+interface_glowny	./inc/galeria_klas_Zbrzezniak29781.h	/^        void interface_glowny();$/;"	p	class:Interface	access:public	signature:()
+interface_glowny	./src/Interfejs.cpp	/^void Interface::interface_glowny()$/;"	f	class:Interface	signature:()
+interpreter	./inc/Interpretowany.h	/^         string interpreter;$/;"	m	class:Interpretowany	access:private
+interpreter	./inc/galeria_klas_Zbrzezniak29781.h	/^         string interpreter;$/;"	m	class:Interpretowany	access:private
+jest_obiektowy	./inc/Jezyk_programowania.h	/^        bool jest_obiektowy;$/;"	m	class:Jezyk_programowania	access:private
+jest_obiektowy	./inc/galeria_klas_Zbrzezniak29781.h	/^        bool jest_obiektowy;$/;"	m	class:Jezyk_programowania	access:private
+jest_w_uzyciu	./inc/Jezyk_sztuczny.h	/^        bool jest_w_uzyciu;$/;"	m	class:Jezyk_sztuczny	access:private
+jest_w_uzyciu	./inc/galeria_klas_Zbrzezniak29781.h	/^        bool jest_w_uzyciu;$/;"	m	class:Jezyk_sztuczny	access:private
+jezyk_martwy_interface	./inc/Interface.h	/^        void jezyk_martwy_interface();$/;"	p	class:Interface	access:public	signature:()
+jezyk_martwy_interface	./inc/galeria_klas_Zbrzezniak29781.h	/^        void jezyk_martwy_interface();$/;"	p	class:Interface	access:public	signature:()
+jezyk_martwy_interface	./src/Interfejs.cpp	/^void Interface::jezyk_martwy_interface()$/;"	f	class:Interface	signature:()
+jezyk_martwy_interface_tworzenie	./inc/Interface.h	/^        void jezyk_martwy_interface_tworzenie();$/;"	p	class:Interface	access:public	signature:()
+jezyk_martwy_interface_tworzenie	./inc/galeria_klas_Zbrzezniak29781.h	/^        void jezyk_martwy_interface_tworzenie();$/;"	p	class:Interface	access:public	signature:()
+jezyk_martwy_interface_tworzenie	./src/Interfejs.cpp	/^void Interface::Interface::jezyk_martwy_interface_tworzenie()$/;"	f	class:Interface::Interface	signature:()
+jezyk_programowania	./inc/Interpretowany.h	/^         Jezyk_programowania jezyk_programowania;$/;"	m	class:Interpretowany	access:private
+jezyk_programowania	./inc/Kompilowany.h	/^         Jezyk_programowania jezyk_programowania;$/;"	m	class:Kompilowany	access:private
+jezyk_programowania	./inc/galeria_klas_Zbrzezniak29781.h	/^         Jezyk_programowania jezyk_programowania;$/;"	m	class:Interpretowany	access:private
+jezyk_programowania	./inc/galeria_klas_Zbrzezniak29781.h	/^         Jezyk_programowania jezyk_programowania;$/;"	m	class:Kompilowany	access:private
+jezyk_wzorcowy	./inc/Jezyk_migowy.h	/^        string jezyk_wzorcowy;$/;"	m	class:Jezyk_migowy	access:private
+jezyk_wzorcowy	./inc/Jezyk_sztuczny.h	/^        string jezyk_wzorcowy;$/;"	m	class:Jezyk_sztuczny	access:private
+jezyk_wzorcowy	./inc/galeria_klas_Zbrzezniak29781.h	/^        string jezyk_wzorcowy;$/;"	m	class:Jezyk_migowy	access:private
+jezyk_wzorcowy	./inc/galeria_klas_Zbrzezniak29781.h	/^        string jezyk_wzorcowy;$/;"	m	class:Jezyk_sztuczny	access:private
+jezykotworca	./inc/Jezyk_sztuczny.h	/^        string jezykotworca;$/;"	m	class:Jezyk_sztuczny	access:private
+jezykotworca	./inc/galeria_klas_Zbrzezniak29781.h	/^        string jezykotworca;$/;"	m	class:Jezyk_sztuczny	access:private
+kompilator	./inc/Kompilowany.h	/^         string kompilator;$/;"	m	class:Kompilowany	access:private
+kompilator	./inc/galeria_klas_Zbrzezniak29781.h	/^         string kompilator;$/;"	m	class:Kompilowany	access:private
+komunikacja	./inc/Jezyk_sztuczny.h	/^        enum Cel_utworzenia {sztuka, komunikacja, szyfrowanie_wiadomosci} cel_utworzenia;$/;"	e	enum:Jezyk_sztuczny::Cel_utworzenia
+komunikacja	./inc/galeria_klas_Zbrzezniak29781.h	/^        enum Cel_utworzenia {sztuka, komunikacja, szyfrowanie_wiadomosci} cel_utworzenia;$/;"	e	enum:Jezyk_sztuczny::Cel_utworzenia
+kontrola_typow	./inc/Interpretowany.h	/^         bool kontrola_typow;$/;"	m	class:Interpretowany	access:private
+kontrola_typow	./inc/galeria_klas_Zbrzezniak29781.h	/^         bool kontrola_typow;$/;"	m	class:Interpretowany	access:private
+kraje_uzywania	./inc/Jezyk_naturalny.h	/^        string kraje_uzywania[];$/;"	m	class:Jezyk_naturalny	access:private
+kraje_uzywania	./inc/galeria_klas_Zbrzezniak29781.h	/^        string kraje_uzywania[];$/;"	m	class:Jezyk_naturalny	access:private
+lat_nauki	./inc/Jezyk.h	/^        float lat_nauki;$/;"	m	class:Jezyk	access:private
+lat_nauki	./inc/galeria_klas_Zbrzezniak29781.h	/^        float lat_nauki;$/;"	m	class:Jezyk	access:private
+latwy	./inc/Jezyk.h	/^        enum Poziom_trudnosci {latwy, srednio_trudny, trudny} poziom_trudnosci;$/;"	e	enum:Jezyk::Poziom_trudnosci
+latwy	./inc/galeria_klas_Zbrzezniak29781.h	/^        enum Poziom_trudnosci {latwy, srednio_trudny, trudny} poziom_trudnosci;$/;"	e	enum:Jezyk::Poziom_trudnosci
+liaison	./inc/Romanskie.h	/^        bool liaison;$/;"	m	class:Romanskie	access:private
+liaison	./inc/galeria_klas_Zbrzezniak29781.h	/^        bool liaison;$/;"	m	class:Romanskie	access:private
+lista_czasow_gramatycznych	./inc/Jezyk_naturalny.h	/^        string lista_czasow_gramatycznych[];$/;"	m	class:Jezyk_naturalny	access:private
+lista_czasow_gramatycznych	./inc/galeria_klas_Zbrzezniak29781.h	/^        string lista_czasow_gramatycznych[];$/;"	m	class:Jezyk_naturalny	access:private
+lista_klas	./inc/Interface.h	/^        vector <Element_list_klas> lista_klas;$/;"	m	class:Interface	access:private
+lista_klas	./inc/galeria_klas_Zbrzezniak29781.h	/^        vector <Element_list_klas> lista_klas;$/;"	m	class:Interface	access:private
+main	./src/Interfejs.cpp	/^int main()$/;"	f	signature:()
+moderuj_czat	./inc/Administrator.h	/^        void moderuj_czat();$/;"	p	class:Administrator	access:public	signature:()
+moderuj_czat	./inc/galeria_klas_Zbrzezniak29781.h	/^        void moderuj_czat();$/;"	p	class:Administrator	access:public	signature:()
+nauczyciel	./inc/Jezyk.h	/^        string nauczyciel;$/;"	m	class:Jezyk	access:private
+nauczyciel	./inc/galeria_klas_Zbrzezniak29781.h	/^        string nauczyciel;$/;"	m	class:Jezyk	access:private
+nazwa_klasy	./inc/Interface.h	/^        string nazwa_klasy;$/;"	m	class:Element_list_klas	access:public
+nazwa_klasy	./inc/galeria_klas_Zbrzezniak29781.h	/^        string nazwa_klasy;$/;"	m	class:Element_list_klas	access:public
+opis	./inc/Uzytkownik.h	/^        string opis;$/;"	m	class:Uzytkownik	access:private
+opis	./inc/galeria_klas_Zbrzezniak29781.h	/^        string opis;$/;"	m	class:Uzytkownik	access:private
+pobierz_jezyk	./inc/Interpretowany.h	/^         Jezyk_programowania * pobierz_jezyk();$/;"	p	class:Interpretowany	access:public	signature:()
+pobierz_jezyk	./inc/Kompilowany.h	/^         Jezyk_programowania * pobierz_jezyk();$/;"	p	class:Kompilowany	access:public	signature:()
+pobierz_jezyk	./inc/galeria_klas_Zbrzezniak29781.h	/^         Jezyk_programowania * pobierz_jezyk();$/;"	p	class:Interpretowany	access:public	signature:()
+pobierz_jezyk	./inc/galeria_klas_Zbrzezniak29781.h	/^         Jezyk_programowania * pobierz_jezyk();$/;"	p	class:Kompilowany	access:public	signature:()
+poczatkujacy	./inc/Jezyk.h	/^        enum Poziom_zaawansowania {poczatkujacy, sredniozaawansowany, zaawansowany, biegly} poziom_zaawasowania;$/;"	e	enum:Jezyk::Poziom_zaawansowania
+poczatkujacy	./inc/galeria_klas_Zbrzezniak29781.h	/^        enum Poziom_zaawansowania {poczatkujacy, sredniozaawansowany, zaawansowany, biegly} poziom_zaawasowania;$/;"	e	enum:Jezyk::Poziom_zaawansowania
+podaj_cel_utworzenia	./inc/Jezyk_sztuczny.h	/^        void podaj_cel_utworzenia(enum Cel_utworzenia cel_utworzenia);$/;"	p	class:Jezyk_sztuczny	access:public	signature:(enum Cel_utworzenia cel_utworzenia)
+podaj_cel_utworzenia	./inc/galeria_klas_Zbrzezniak29781.h	/^        void podaj_cel_utworzenia(enum Cel_utworzenia cel_utworzenia);$/;"	p	class:Jezyk_sztuczny	access:public	signature:(enum Cel_utworzenia cel_utworzenia)
+podaj_jezyk_wzorcowy	./inc/Jezyk_migowy.h	/^        void podaj_jezyk_wzorcowy(string jezyk_wzorcowy);$/;"	p	class:Jezyk_migowy	access:public	signature:(string jezyk_wzorcowy)
+podaj_jezyk_wzorcowy	./inc/Jezyk_sztuczny.h	/^        void podaj_jezyk_wzorcowy (string jezyk_wzorcowy);$/;"	p	class:Jezyk_sztuczny	access:public	signature:(string jezyk_wzorcowy)
+podaj_jezyk_wzorcowy	./inc/galeria_klas_Zbrzezniak29781.h	/^        void podaj_jezyk_wzorcowy (string jezyk_wzorcowy);$/;"	p	class:Jezyk_sztuczny	access:public	signature:(string jezyk_wzorcowy)
+podaj_jezyk_wzorcowy	./inc/galeria_klas_Zbrzezniak29781.h	/^        void podaj_jezyk_wzorcowy(string jezyk_wzorcowy);$/;"	p	class:Jezyk_migowy	access:public	signature:(string jezyk_wzorcowy)
+podaj_jezykotworce	./inc/Jezyk_sztuczny.h	/^        void podaj_jezykotworce(string jezykotworca);$/;"	p	class:Jezyk_sztuczny	access:public	signature:(string jezykotworca)
+podaj_jezykotworce	./inc/galeria_klas_Zbrzezniak29781.h	/^        void podaj_jezykotworce(string jezykotworca);$/;"	p	class:Jezyk_sztuczny	access:public	signature:(string jezykotworca)
+podaj_lat_nauki	./inc/Jezyk.h	/^        void podaj_lat_nauki (float lat_nauki);$/;"	p	class:Jezyk	access:public	signature:(float lat_nauki)
+podaj_lat_nauki	./inc/galeria_klas_Zbrzezniak29781.h	/^        void podaj_lat_nauki (float lat_nauki);$/;"	p	class:Jezyk	access:public	signature:(float lat_nauki)
+pokaz_profil	./inc/Uzytkownik.h	/^        void pokaz_profil();$/;"	p	class:Uzytkownik	access:private	signature:()
+pokaz_profil	./inc/galeria_klas_Zbrzezniak29781.h	/^        void pokaz_profil();$/;"	p	class:Uzytkownik	access:private	signature:()
+pokaz_wpis	./inc/Slownik.h	/^        void pokaz_wpis(string wpis);$/;"	p	class:Slownik	access:public	signature:(string wpis)
+pokaz_wpis	./inc/galeria_klas_Zbrzezniak29781.h	/^        void pokaz_wpis(string wpis);$/;"	p	class:Slownik	access:public	signature:(string wpis)
+pokaz_zawartosc	./inc/Baza_danych.h	/^        virtual void pokaz_zawartosc() = 0;$/;"	p	class:Baza_danych	access:public	signature:()
+pokaz_zawartosc	./inc/Germanskie.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:Germanskie	access:public	signature:()
+pokaz_zawartosc	./inc/IIIciej_generacji.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:IIIciej_generacji	access:public	signature:()
+pokaz_zawartosc	./inc/IVtej_generacji.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:IVtej_generacji	access:public	signature:()
+pokaz_zawartosc	./inc/Jezyk.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:Jezyk	access:public	signature:()
+pokaz_zawartosc	./inc/Jezyk_martwy.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:Jezyk_martwy	access:public	signature:()
+pokaz_zawartosc	./inc/Jezyk_migowy.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:Jezyk_migowy	access:public	signature:()
+pokaz_zawartosc	./inc/Jezyk_naturalny.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:Jezyk_naturalny	access:public	signature:()
+pokaz_zawartosc	./inc/Jezyk_programowania.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:Jezyk_programowania	access:public	signature:()
+pokaz_zawartosc	./inc/Jezyk_sztuczny.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:Jezyk_sztuczny	access:public	signature:()
+pokaz_zawartosc	./inc/Romanskie.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:Romanskie	access:public	signature:()
+pokaz_zawartosc	./inc/Slowianskie.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:Slowianskie	access:public	signature:()
+pokaz_zawartosc	./inc/galeria_klas_Zbrzezniak29781.h	/^        virtual void pokaz_zawartosc() = 0;$/;"	p	class:Baza_danych	access:public	signature:()
+pokaz_zawartosc	./inc/galeria_klas_Zbrzezniak29781.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:Germanskie	access:public	signature:()
+pokaz_zawartosc	./inc/galeria_klas_Zbrzezniak29781.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:IIIciej_generacji	access:public	signature:()
+pokaz_zawartosc	./inc/galeria_klas_Zbrzezniak29781.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:IVtej_generacji	access:public	signature:()
+pokaz_zawartosc	./inc/galeria_klas_Zbrzezniak29781.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:Jezyk	access:public	signature:()
+pokaz_zawartosc	./inc/galeria_klas_Zbrzezniak29781.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:Jezyk_martwy	access:public	signature:()
+pokaz_zawartosc	./inc/galeria_klas_Zbrzezniak29781.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:Jezyk_migowy	access:public	signature:()
+pokaz_zawartosc	./inc/galeria_klas_Zbrzezniak29781.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:Jezyk_naturalny	access:public	signature:()
+pokaz_zawartosc	./inc/galeria_klas_Zbrzezniak29781.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:Jezyk_programowania	access:public	signature:()
+pokaz_zawartosc	./inc/galeria_klas_Zbrzezniak29781.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:Jezyk_sztuczny	access:public	signature:()
+pokaz_zawartosc	./inc/galeria_klas_Zbrzezniak29781.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:Romanskie	access:public	signature:()
+pokaz_zawartosc	./inc/galeria_klas_Zbrzezniak29781.h	/^        virtual void pokaz_zawartosc();$/;"	p	class:Slowianskie	access:public	signature:()
+pokaz_zawartosc	./src/Interfejs.cpp	/^void Jezyk::pokaz_zawartosc(){};$/;"	f	class:Jezyk	signature:()
+pokaz_zawartosc	./src/Interfejs.cpp	/^void Jezyk_naturalny::pokaz_zawartosc(){};$/;"	f	class:Jezyk_naturalny	signature:()
+pokaz_zawartosc	./src/Interfejs.cpp	/^void Jezyk_sztuczny::pokaz_zawartosc()$/;"	f	class:Jezyk_sztuczny	signature:()
+polacz_komunikatorem	./inc/Uzytkownik.h	/^        void polacz_komunikatorem();$/;"	p	class:Uzytkownik	access:private	signature:()
+polacz_komunikatorem	./inc/galeria_klas_Zbrzezniak29781.h	/^        void polacz_komunikatorem();$/;"	p	class:Uzytkownik	access:private	signature:()
+posiada_funkcje_niskopoziomowe	./inc/Kompilowany.h	/^         bool posiada_funkcje_niskopoziomowe;$/;"	m	class:Kompilowany	access:private
+posiada_funkcje_niskopoziomowe	./inc/galeria_klas_Zbrzezniak29781.h	/^         bool posiada_funkcje_niskopoziomowe;$/;"	m	class:Kompilowany	access:private
+posiada_klasy	./inc/IVtej_generacji.h	/^        bool posiada_klasy;$/;"	m	class:IVtej_generacji	access:private
+posiada_klasy	./inc/galeria_klas_Zbrzezniak29781.h	/^        bool posiada_klasy;$/;"	m	class:IVtej_generacji	access:private
+posiada_rodzajniki	./inc/Jezyk_naturalny.h	/^        bool posiada_rodzajniki;$/;"	m	class:Jezyk_naturalny	access:private
+posiada_rodzajniki	./inc/galeria_klas_Zbrzezniak29781.h	/^        bool posiada_rodzajniki;$/;"	m	class:Jezyk_naturalny	access:private
+posiada_skladnie_klamrowa	./inc/Jezyk_programowania.h	/^        bool posiada_skladnie_klamrowa;$/;"	m	class:Jezyk_programowania	access:private
+posiada_skladnie_klamrowa	./inc/galeria_klas_Zbrzezniak29781.h	/^        bool posiada_skladnie_klamrowa;$/;"	m	class:Jezyk_programowania	access:private
+posiada_slownik	./inc/Jezyk_martwy.h	/^        bool posiada_slownik;$/;"	m	class:Jezyk_martwy	access:private
+posiada_slownik	./inc/galeria_klas_Zbrzezniak29781.h	/^        bool posiada_slownik;$/;"	m	class:Jezyk_martwy	access:private
+posiada_wskazniki	./inc/IIIciej_generacji.h	/^        bool posiada_wskazniki;$/;"	m	class:IIIciej_generacji	access:private
+posiada_wskazniki	./inc/galeria_klas_Zbrzezniak29781.h	/^        bool posiada_wskazniki;$/;"	m	class:IIIciej_generacji	access:private
+poziom_trudnosci	./inc/Jezyk.h	/^        enum Poziom_trudnosci {latwy, srednio_trudny, trudny} poziom_trudnosci;$/;"	m	class:Jezyk	typeref:enum:Jezyk::Poziom_trudnosci	access:private
+poziom_trudnosci	./inc/galeria_klas_Zbrzezniak29781.h	/^        enum Poziom_trudnosci {latwy, srednio_trudny, trudny} poziom_trudnosci;$/;"	m	class:Jezyk	typeref:enum:Jezyk::Poziom_trudnosci	access:private
+poziom_zaawasowania	./inc/Jezyk.h	/^        enum Poziom_zaawansowania {poczatkujacy, sredniozaawansowany, zaawansowany, biegly} poziom_zaawasowania;$/;"	m	class:Jezyk	typeref:enum:Jezyk::Poziom_zaawansowania	access:private
+poziom_zaawasowania	./inc/galeria_klas_Zbrzezniak29781.h	/^        enum Poziom_zaawansowania {poczatkujacy, sredniozaawansowany, zaawansowany, biegly} poziom_zaawasowania;$/;"	m	class:Jezyk	typeref:enum:Jezyk::Poziom_zaawansowania	access:private
+przetlumacz	./inc/Jezyk_naturalny.h	/^        string przetlumacz (string tekst_wejsciowy);$/;"	p	class:Jezyk_naturalny	access:public	signature:(string tekst_wejsciowy)
+przetlumacz	./inc/galeria_klas_Zbrzezniak29781.h	/^        string przetlumacz (string tekst_wejsciowy);$/;"	p	class:Jezyk_naturalny	access:public	signature:(string tekst_wejsciowy)
+przypadki	./inc/Germanskie.h	/^        string przypadki[];$/;"	m	class:Germanskie	access:private
+przypadki	./inc/Slowianskie.h	/^        string przypadki[];$/;"	m	class:Slowianskie	access:private
+przypadki	./inc/galeria_klas_Zbrzezniak29781.h	/^        string przypadki[];$/;"	m	class:Germanskie	access:private
+przypadki	./inc/galeria_klas_Zbrzezniak29781.h	/^        string przypadki[];$/;"	m	class:Slowianskie	access:private
+slownik	./inc/Jezyk_martwy.h	/^        Slownik slownik;$/;"	m	class:Jezyk_martwy	access:private
+slownik	./inc/Jezyk_naturalny.h	/^        Slownik slownik;$/;"	m	class:Jezyk_naturalny	access:private
+slownik	./inc/Slownik.h	/^        map<string, string> slownik;$/;"	m	class:Slownik	access:private
+slownik	./inc/galeria_klas_Zbrzezniak29781.h	/^        Slownik slownik;$/;"	m	class:Jezyk_martwy	access:private
+slownik	./inc/galeria_klas_Zbrzezniak29781.h	/^        Slownik slownik;$/;"	m	class:Jezyk_naturalny	access:private
+slownik	./inc/galeria_klas_Zbrzezniak29781.h	/^        map<string, string> slownik;$/;"	m	class:Slownik	access:private
+srednio_trudny	./inc/Jezyk.h	/^        enum Poziom_trudnosci {latwy, srednio_trudny, trudny} poziom_trudnosci;$/;"	e	enum:Jezyk::Poziom_trudnosci
+srednio_trudny	./inc/galeria_klas_Zbrzezniak29781.h	/^        enum Poziom_trudnosci {latwy, srednio_trudny, trudny} poziom_trudnosci;$/;"	e	enum:Jezyk::Poziom_trudnosci
+sredniozaawansowany	./inc/Jezyk.h	/^        enum Poziom_zaawansowania {poczatkujacy, sredniozaawansowany, zaawansowany, biegly} poziom_zaawasowania;$/;"	e	enum:Jezyk::Poziom_zaawansowania
+sredniozaawansowany	./inc/galeria_klas_Zbrzezniak29781.h	/^        enum Poziom_zaawansowania {poczatkujacy, sredniozaawansowany, zaawansowany, biegly} poziom_zaawasowania;$/;"	e	enum:Jezyk::Poziom_zaawansowania
+sztuka	./inc/Jezyk_sztuczny.h	/^        enum Cel_utworzenia {sztuka, komunikacja, szyfrowanie_wiadomosci} cel_utworzenia;$/;"	e	enum:Jezyk_sztuczny::Cel_utworzenia
+sztuka	./inc/galeria_klas_Zbrzezniak29781.h	/^        enum Cel_utworzenia {sztuka, komunikacja, szyfrowanie_wiadomosci} cel_utworzenia;$/;"	e	enum:Jezyk_sztuczny::Cel_utworzenia
+szyfrowanie_wiadomosci	./inc/Jezyk_sztuczny.h	/^        enum Cel_utworzenia {sztuka, komunikacja, szyfrowanie_wiadomosci} cel_utworzenia;$/;"	e	enum:Jezyk_sztuczny::Cel_utworzenia
+szyfrowanie_wiadomosci	./inc/galeria_klas_Zbrzezniak29781.h	/^        enum Cel_utworzenia {sztuka, komunikacja, szyfrowanie_wiadomosci} cel_utworzenia;$/;"	e	enum:Jezyk_sztuczny::Cel_utworzenia
+trudny	./inc/Jezyk.h	/^        enum Poziom_trudnosci {latwy, srednio_trudny, trudny} poziom_trudnosci;$/;"	e	enum:Jezyk::Poziom_trudnosci
+trudny	./inc/galeria_klas_Zbrzezniak29781.h	/^        enum Poziom_trudnosci {latwy, srednio_trudny, trudny} poziom_trudnosci;$/;"	e	enum:Jezyk::Poziom_trudnosci
+udokumentowane_zasady_wymowy	./inc/Jezyk_martwy.h	/^        bool udokumentowane_zasady_wymowy;$/;"	m	class:Jezyk_martwy	access:private
+udokumentowane_zasady_wymowy	./inc/galeria_klas_Zbrzezniak29781.h	/^        bool udokumentowane_zasady_wymowy;$/;"	m	class:Jezyk_martwy	access:private
+unikalne_pismo	./inc/Jezyk_martwy.h	/^        bool unikalne_pismo;$/;"	m	class:Jezyk_martwy	access:private
+unikalne_pismo	./inc/galeria_klas_Zbrzezniak29781.h	/^        bool unikalne_pismo;$/;"	m	class:Jezyk_martwy	access:private
+ustaw_alfabet_jednoreczny	./inc/Jezyk_migowy.h	/^        void ustaw_alfabet_jednoreczny (bool alfabet_jednoreczny);$/;"	p	class:Jezyk_migowy	access:public	signature:(bool alfabet_jednoreczny)
+ustaw_alfabet_jednoreczny	./inc/galeria_klas_Zbrzezniak29781.h	/^        void ustaw_alfabet_jednoreczny (bool alfabet_jednoreczny);$/;"	p	class:Jezyk_migowy	access:public	signature:(bool alfabet_jednoreczny)
+ustaw_jest_w_uzyciu	./inc/Jezyk_sztuczny.h	/^        void ustaw_jest_w_uzyciu (bool jest_w_uzyciu);$/;"	p	class:Jezyk_sztuczny	access:public	signature:(bool jest_w_uzyciu)
+ustaw_jest_w_uzyciu	./inc/galeria_klas_Zbrzezniak29781.h	/^        void ustaw_jest_w_uzyciu (bool jest_w_uzyciu);$/;"	p	class:Jezyk_sztuczny	access:public	signature:(bool jest_w_uzyciu)
+ustaw_kontrola_typow	./inc/Interpretowany.h	/^         void ustaw_kontrola_typow (bool kontrola_typow);$/;"	p	class:Interpretowany	access:public	signature:(bool kontrola_typow)
+ustaw_kontrola_typow	./inc/galeria_klas_Zbrzezniak29781.h	/^         void ustaw_kontrola_typow (bool kontrola_typow);$/;"	p	class:Interpretowany	access:public	signature:(bool kontrola_typow)
+ustaw_liaison	./inc/Romanskie.h	/^        void ustaw_liaison(bool liaison);$/;"	p	class:Romanskie	access:public	signature:(bool liaison)
+ustaw_liaison	./inc/galeria_klas_Zbrzezniak29781.h	/^        void ustaw_liaison(bool liaison);$/;"	p	class:Romanskie	access:public	signature:(bool liaison)
+ustaw_posiada_funkcje_niskopoziomowe	./inc/Kompilowany.h	/^         void ustaw_posiada_funkcje_niskopoziomowe (bool posiada_funkcje_niskopoziomowe);$/;"	p	class:Kompilowany	access:public	signature:(bool posiada_funkcje_niskopoziomowe)
+ustaw_posiada_funkcje_niskopoziomowe	./inc/galeria_klas_Zbrzezniak29781.h	/^         void ustaw_posiada_funkcje_niskopoziomowe (bool posiada_funkcje_niskopoziomowe);$/;"	p	class:Kompilowany	access:public	signature:(bool posiada_funkcje_niskopoziomowe)
+ustaw_posiada_klasy	./inc/IVtej_generacji.h	/^        void ustaw_posiada_klasy(bool posiada_klasy);$/;"	p	class:IVtej_generacji	access:public	signature:(bool posiada_klasy)
+ustaw_posiada_klasy	./inc/galeria_klas_Zbrzezniak29781.h	/^        void ustaw_posiada_klasy(bool posiada_klasy);$/;"	p	class:IVtej_generacji	access:public	signature:(bool posiada_klasy)
+ustaw_posiada_rodzajniki	./inc/Jezyk_naturalny.h	/^        void ustaw_posiada_rodzajniki (bool posiada_rodzajniki);$/;"	p	class:Jezyk_naturalny	access:public	signature:(bool posiada_rodzajniki)
+ustaw_posiada_rodzajniki	./inc/galeria_klas_Zbrzezniak29781.h	/^        void ustaw_posiada_rodzajniki (bool posiada_rodzajniki);$/;"	p	class:Jezyk_naturalny	access:public	signature:(bool posiada_rodzajniki)
+ustaw_posiada_slownik	./inc/Jezyk_martwy.h	/^        void ustaw_posiada_slownik (bool posiada_slownik);$/;"	p	class:Jezyk_martwy	access:public	signature:(bool posiada_slownik)
+ustaw_posiada_slownik	./inc/galeria_klas_Zbrzezniak29781.h	/^        void ustaw_posiada_slownik (bool posiada_slownik);$/;"	p	class:Jezyk_martwy	access:public	signature:(bool posiada_slownik)
+ustaw_posiada_wskazniki	./inc/IIIciej_generacji.h	/^        void ustaw_posiada_wskazniki (bool posiada_wskazniki);$/;"	p	class:IIIciej_generacji	access:public	signature:(bool posiada_wskazniki)
+ustaw_posiada_wskazniki	./inc/galeria_klas_Zbrzezniak29781.h	/^        void ustaw_posiada_wskazniki (bool posiada_wskazniki);$/;"	p	class:IIIciej_generacji	access:public	signature:(bool posiada_wskazniki)
+ustaw_poziom_trudnosci	./inc/Jezyk.h	/^        void ustaw_poziom_trudnosci (enum Poziom_trudnosci poziom_trudnosci);$/;"	p	class:Jezyk	access:public	signature:(enum Poziom_trudnosci poziom_trudnosci)
+ustaw_poziom_trudnosci	./inc/galeria_klas_Zbrzezniak29781.h	/^        void ustaw_poziom_trudnosci (enum Poziom_trudnosci poziom_trudnosci);$/;"	p	class:Jezyk	access:public	signature:(enum Poziom_trudnosci poziom_trudnosci)
+ustaw_poziom_zaawansowania	./inc/Jezyk.h	/^        void ustaw_poziom_zaawansowania (enum Poziom_zaawansowania poziom_zaawansowania);$/;"	p	class:Jezyk	access:public	signature:(enum Poziom_zaawansowania poziom_zaawansowania)
+ustaw_poziom_zaawansowania	./inc/galeria_klas_Zbrzezniak29781.h	/^        void ustaw_poziom_zaawansowania (enum Poziom_zaawansowania poziom_zaawansowania);$/;"	p	class:Jezyk	access:public	signature:(enum Poziom_zaawansowania poziom_zaawansowania)
+ustaw_udokumentowane_zasady_wymowy	./inc/Jezyk_martwy.h	/^        void ustaw_udokumentowane_zasady_wymowy (bool udokumentowane_zasady_wymowy);$/;"	p	class:Jezyk_martwy	access:public	signature:(bool udokumentowane_zasady_wymowy)
+ustaw_udokumentowane_zasady_wymowy	./inc/galeria_klas_Zbrzezniak29781.h	/^        void ustaw_udokumentowane_zasady_wymowy (bool udokumentowane_zasady_wymowy);$/;"	p	class:Jezyk_martwy	access:public	signature:(bool udokumentowane_zasady_wymowy)
+ustaw_unikalne_pismo	./inc/Jezyk_martwy.h	/^        void ustaw_unikalne_pismo (bool unikalne_pismo);$/;"	p	class:Jezyk_martwy	access:public	signature:(bool unikalne_pismo)
+ustaw_unikalne_pismo	./inc/galeria_klas_Zbrzezniak29781.h	/^        void ustaw_unikalne_pismo (bool unikalne_pismo);$/;"	p	class:Jezyk_martwy	access:public	signature:(bool unikalne_pismo)
+usun_uzytkownika	./inc/Administrator.h	/^        void usun_uzytkownika(string imie_nazwisko);$/;"	p	class:Administrator	access:public	signature:(string imie_nazwisko)
+usun_uzytkownika	./inc/galeria_klas_Zbrzezniak29781.h	/^        void usun_uzytkownika(string imie_nazwisko);$/;"	p	class:Administrator	access:public	signature:(string imie_nazwisko)
+utworz_profil	./inc/Uzytkownik.h	/^        void utworz_profil();$/;"	p	class:Uzytkownik	access:private	signature:()
+utworz_profil	./inc/galeria_klas_Zbrzezniak29781.h	/^        void utworz_profil();$/;"	p	class:Uzytkownik	access:private	signature:()
+wiek	./inc/Uzytkownik.h	/^        int wiek;$/;"	m	class:Uzytkownik	access:private
+wiek	./inc/galeria_klas_Zbrzezniak29781.h	/^        int wiek;$/;"	m	class:Uzytkownik	access:private
+wskaznik_na_obiekt	./inc/Interface.h	/^        Baza_danych* wskaznik_na_obiekt;$/;"	m	class:Element_list_klas	access:public
+wskaznik_na_obiekt	./inc/galeria_klas_Zbrzezniak29781.h	/^        Baza_danych* wskaznik_na_obiekt;$/;"	m	class:Element_list_klas	access:public
+wyslij_wiadomosc	./inc/Uzytkownik.h	/^        void wyslij_wiadomosc();$/;"	p	class:Uzytkownik	access:private	signature:()
+wyslij_wiadomosc	./inc/galeria_klas_Zbrzezniak29781.h	/^        void wyslij_wiadomosc();$/;"	p	class:Uzytkownik	access:private	signature:()
+zaawansowany	./inc/Jezyk.h	/^        enum Poziom_zaawansowania {poczatkujacy, sredniozaawansowany, zaawansowany, biegly} poziom_zaawasowania;$/;"	e	enum:Jezyk::Poziom_zaawansowania
+zaawansowany	./inc/galeria_klas_Zbrzezniak29781.h	/^        enum Poziom_zaawansowania {poczatkujacy, sredniozaawansowany, zaawansowany, biegly} poziom_zaawasowania;$/;"	e	enum:Jezyk::Poziom_zaawansowania
+zamien_kod_na_obiektowy	./inc/Jezyk_programowania.h	/^        char* zamien_kod_na_obiektowy (char *kod);$/;"	p	class:Jezyk_programowania	access:public	signature:(char *kod)
+zamien_kod_na_obiektowy	./inc/galeria_klas_Zbrzezniak29781.h	/^        char* zamien_kod_na_obiektowy (char *kod);$/;"	p	class:Jezyk_programowania	access:public	signature:(char *kod)
+zasady_gramatyczne	./inc/Jezyk_naturalny.h	/^        string zasady_gramatyczne[];$/;"	m	class:Jezyk_naturalny	access:private
+zasady_gramatyczne	./inc/galeria_klas_Zbrzezniak29781.h	/^        string zasady_gramatyczne[];$/;"	m	class:Jezyk_naturalny	access:private
+zasady_skladni	./inc/Jezyk.h	/^        string zasady_skladni[];$/;"	m	class:Jezyk	access:private
+zasady_skladni	./inc/galeria_klas_Zbrzezniak29781.h	/^        string zasady_skladni[];$/;"	m	class:Jezyk	access:private
+zasady_wymowy	./inc/Jezyk_martwy.h	/^        string zasady_wymowy[];$/;"	m	class:Jezyk_martwy	access:private
+zasady_wymowy	./inc/Jezyk_naturalny.h	/^        string zasady_wymowy[];$/;"	m	class:Jezyk_naturalny	access:private
+zasady_wymowy	./inc/galeria_klas_Zbrzezniak29781.h	/^        string zasady_wymowy[];$/;"	m	class:Jezyk_martwy	access:private
+zasady_wymowy	./inc/galeria_klas_Zbrzezniak29781.h	/^        string zasady_wymowy[];$/;"	m	class:Jezyk_naturalny	access:private
+zmien_profil	./inc/Uzytkownik.h	/^        void zmien_profil();$/;"	p	class:Uzytkownik	access:private	signature:()
+zmien_profil	./inc/galeria_klas_Zbrzezniak29781.h	/^        void zmien_profil();$/;"	p	class:Uzytkownik	access:private	signature:()
+znajdz_instancje	./inc/Interface.h	/^        Element_list_klas znajdz_instancje();$/;"	p	class:Interface	access:public	signature:()
+znajdz_instancje	./inc/galeria_klas_Zbrzezniak29781.h	/^        Element_list_klas znajdz_instancje();$/;"	p	class:Interface	access:public	signature:()
+znaki_niestandardowe	./inc/Germanskie.h	/^        char znaki_niestandardowe[];$/;"	m	class:Germanskie	access:private
+znaki_niestandardowe	./inc/Romanskie.h	/^        char znaki_niestandardowe[];$/;"	m	class:Romanskie	access:private
+znaki_niestandardowe	./inc/galeria_klas_Zbrzezniak29781.h	/^        char znaki_niestandardowe[];$/;"	m	class:Germanskie	access:private
+znaki_niestandardowe	./inc/galeria_klas_Zbrzezniak29781.h	/^        char znaki_niestandardowe[];$/;"	m	class:Romanskie	access:private
+znane_algorytmy	./inc/Jezyk_programowania.h	/^        string znane_algorytmy[];$/;"	m	class:Jezyk_programowania	access:private
+znane_algorytmy	./inc/galeria_klas_Zbrzezniak29781.h	/^        string znane_algorytmy[];$/;"	m	class:Jezyk_programowania	access:private
+znane_biblioteki	./inc/Jezyk_programowania.h	/^        string znane_biblioteki[];$/;"	m	class:Jezyk_programowania	access:private
+znane_biblioteki	./inc/galeria_klas_Zbrzezniak29781.h	/^        string znane_biblioteki[];$/;"	m	class:Jezyk_programowania	access:private
+znane_jezyki	./inc/Uzytkownik.h	/^        string znane_jezyki[];$/;"	m	class:Uzytkownik	access:private
+znane_jezyki	./inc/galeria_klas_Zbrzezniak29781.h	/^        string znane_jezyki[];$/;"	m	class:Uzytkownik	access:private

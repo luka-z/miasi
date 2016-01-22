@@ -1,0 +1,37 @@
+" Press <F1> for help
+
+-[F]miasi {
+ |-[F]inc {
+ | |-Administrator.h
+ | |-Baza_danych.h
+ | |-galeria_klas_Zbrzezniak29781.h
+ | |-Germanskie.h
+ | |-IIIciej_generacji.h
+ | |-Interface.h
+ | |-Interpretowany.h
+ | |-IVtej_generacji.h
+ | |-Jezyk.h
+ | |-Jezyk_martwy.h
+ | |-Jezyk_migowy.h
+ | |-Jezyk_naturalny.h
+ | |-Jezyk_programowania.h
+ | |-Jezyk_sztuczny.h
+ | |-Kompilowany.h
+ | |-Romanskie.h
+ | |-Slowianskie.h
+ | |-Slownik.h
+ | |-Uzytkownik.h }
+ |
+ |-[F]src {
+ | |-Baza_danych.cpp
+ | |-Interfejs.cpp
+ | |-Jezyk.cpp
+ | |-Jezyk_naturalny.cpp
+ | |-Jezyk_sztuczny.cpp
+ | |-miasi.cpp
+ | |-Slownik.cpp }
+ |
+ |-makefile
+ |-miasi.exvim }
+
+
