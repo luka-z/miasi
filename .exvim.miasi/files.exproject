@@ -31,7 +31,9 @@
  | |-Jezyk_martwy.cpp
  | |-miasi.cpp
  | |-Jezyk_migowy.cpp
+ | |-Slowianskie.cpp
  | |-Germanskie.cpp
+ | |-Romanskie.cpp
  | |-Slownik.cpp }
  |
  |-makefile

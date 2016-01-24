@@ -1,10 +1,10 @@
 #include <iostream>
 #include <string>
-#include "../inc/Germanskie.h"
+#include "../inc/Slowianskie.h"
 
 using namespace std;
 
-Germanskie::Germanskie(
+Slowianskie::Slowianskie(
                            Poziom_trudnosci _poziom_trudnosci,
                            Poziom_zaawansowania _poziom_zaawansowania,
                            std::string _nauczyciel,
@@ -17,8 +17,8 @@ Germanskie::Germanskie(
                            Slownik _slownik,
                            std::string _zasady_gramatyczne,
                            std::string _zasady_wymowy,
-                           string _przypadek,
-                           char _znak_niestandardowy):
+                           std::string _alfabet,
+                           std::string _przypadki):
   Jezyk_naturalny(
                   _poziom_trudnosci,
                   _poziom_zaawansowania,
@@ -32,17 +32,17 @@ Germanskie::Germanskie(
                   _zasady_gramatyczne,
                   _zasady_wymowy)
 {
-  przypadki.push_back(_przypadek);
-  znaki_niestandardowe.push_back(_znak_niestandardowy);
+  alfabet.push_back(_alfabet);
+  przypadki.push_back(_przypadki);
 
-  cout<< "Utworzono instancję klasy Germanskie." << endl;
+  cout<< "Utworzono instancję klasy Slowianskie." << endl;
 }
 
-void Germanskie::pokaz_zawartosc()
+void Slowianskie::pokaz_zawartosc()
 {
   cout << "################################################" <<endl;
-  cout << "pokaz_zawartosc() instancji klasy Germanskie" <<endl;
-  cout << "przypadki= "<< przypadki.front() << endl;
-  cout << "znaki_niestandardowe = "<< znaki_niestandardowe.front() << endl;
+  cout << "pokaz_zawartosc() instancji klasy Slowianskie" <<endl;
+  cout << "alfabet = "<< alfabet.front() << endl;
+  cout << "przypadki = "<< przypadki.front() << endl;
   Jezyk_naturalny::pokaz_zawartosc();
 }

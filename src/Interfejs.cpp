@@ -5,6 +5,9 @@
 #include "../inc/Jezyk_sztuczny.h"
 #include "../inc/Jezyk_migowy.h"
 #include "../inc/Jezyk_martwy.h"
+#include "../inc/Slowianskie.h"
+#include "../inc/Romanskie.h"
+
 #include <iostream>
 #include <string>
 #include <cstdlib>
@@ -106,7 +109,8 @@ void Interface::interface_glowny()
     cout << "b) Utworzenie lub podglad instancji klasy Jezyk_migowy" << endl;
     cout << "c) Utworzenie lub podglad instancji klasy Germanskie" << endl;
     cout << "d) Utworzenie lub podglad instancji klasy Jezyk_martwy" << endl;
-
+    cout << "e) Utworzenie lub podglad instancji klasy Slowianskie" << endl;
+    cout << "f) Utworzenie lub podglad instancji klasy Romanskie" << endl;
 
     cout << "x) Zamknij program" << endl;
     cout << "z) Demonstracja dzialania funkcji wirtualnej \"pokaz_zawartosc\"" << endl;
@@ -125,6 +129,12 @@ void Interface::interface_glowny()
             break;
         case 'd':
                 jezyk_interface_klasa(&Interface::jezyk_martwy_interface_tworzenie, &Interface::jezyk_martwy_interface_wyswietlanie);
+            break;
+        case 'e':
+                jezyk_interface_klasa(&Interface::slowianskie_interface_tworzenie, &Interface::slowianskie_interface_tworzenie);
+            break;
+        case 'f':
+                jezyk_interface_klasa(&Interface::romanskie_interface_tworzenie, &Interface::romanskie_interface_wyswietlanie);
             break;
         case 'x':
             {
@@ -218,6 +228,35 @@ void Interface::jezyk_migowy_interface_wyswietlanie()
 {
 }
 
+void Interface::jezyk_martwy_interface_tworzenie()
+{
+
+    string nazwa = pobierz_str("Podaj nazwę instancji", "Domyslna nazywa instancji");
+    Jezyk::Poziom_trudnosci poziom_trudnosci = static_cast<Jezyk::Poziom_trudnosci>(pobierz_int("Podaj poziom trudności języka \n 0)łatwy, 1)średnio trudny, 2)trudny", 1));
+    Jezyk::Poziom_zaawansowania poziom_zaawansowania =  static_cast<Jezyk::Poziom_zaawansowania>(pobierz_int("Podaj poziom zaawansowania \n  0) początkujący, 1)średniozaawansowany, 2) zaawansowany, 3) biegły", 2));
+    string nauczyciel = pobierz_str("Podaj jak nazywa się Nauczyciel", "Nauczyciel domyslny");
+    float lat_nauki = pobierz_int("Podaj ile tat trwała nauka", 5);
+    string zasady_skladni = pobierz_str("Podaj zasadę składni", "Pierwsza zasada składni");
+    bool udokumentowane_zasady_wymowy = pobierz_bool("Czy posiada udokumentowane zasady wymowy 0) Nie 1) Tak", 1);
+    bool unikalne_pismo = pobierz_bool("Czy posiada unikalne pismio? 0) Nie 1) Tak" , 1);
+    bool posiada_slownik = pobierz_bool("Czy posiada słoownik? 0) Nie 1)Tak", 1);
+    Slownik slownik;
+    string zasady_wymowy = pobierz_str("Podaj zasadę wymowy:", "Domyślna zasada wymowy");
+
+
+    Jezyk_martwy* tmp = new Jezyk_martwy(poziom_trudnosci, poziom_zaawansowania, nauczyciel, lat_nauki, zasady_skladni,
+                                         udokumentowane_zasady_wymowy, unikalne_pismo, posiada_slownik, slownik, zasady_wymowy);
+
+    Element_list_klas nowy;
+    nowy.nazwa_klasy = nazwa;
+    nowy.wskaznik_na_obiekt = tmp;
+    lista_klas.push_back(nowy);
+    interface_glowny();
+}
+void Interface::jezyk_martwy_interface_wyswietlanie()
+{
+}
+
 void Interface::germanskie_interface_tworzenie()
 {
 
@@ -254,7 +293,8 @@ void Interface::germanskie_interface_wyswietlanie()
 {
 }
 
-void Interface::jezyk_martwy_interface_tworzenie()
+
+void Interface::slowianskie_interface_tworzenie()
 {
 
     string nazwa = pobierz_str("Podaj nazwę instancji", "Domyslna nazywa instancji");
@@ -263,15 +303,20 @@ void Interface::jezyk_martwy_interface_tworzenie()
     string nauczyciel = pobierz_str("Podaj jak nazywa się Nauczyciel", "Nauczyciel domyslny");
     float lat_nauki = pobierz_int("Podaj ile tat trwała nauka", 5);
     string zasady_skladni = pobierz_str("Podaj zasadę składni", "Pierwsza zasada składni");
-    bool udokumentowane_zasady_wymowy = pobierz_bool("Czy posiada udokumentowane zasady wymowy 0) Nie 1) Tak", 1);
-    bool unikalne_pismo = pobierz_bool("Czy posiada unikalne pismio? 0) Nie 1) Tak" , 1);
-    bool posiada_slownik = pobierz_bool("Czy posiada słoownik? 0) Nie 1)Tak", 1);
+    string lista_czasow_gramatycznych =  pobierz_str("Podaj czas gramatyczną", "Pierwszy czas gramatyczny");
+    bool posiada_rodzajniki = pobierz_bool("Czy jezyk posiada rodzajniki wybierz 0) NIE, 1) TAK", true);
+    string kraje_uzywania = pobierz_str( "Napisz w jakim kraju jest ten język używany", "Pierwszy kraj uzywania");
+
     Slownik slownik;
-    string zasady_wymowy = pobierz_str("Podaj zasadę wymowy:", "Domyślna zasada wymowy");
 
+    string zasady_gramatyczne = pobierz_str("Podaj zasadę gramatyczną", "Pierwsza zasada gramatyczna");
+    string zasady_wymowy = pobierz_str("Podaj zasadę wymowy","Pierwsza zasada wymowy");
 
-    Jezyk_martwy* tmp = new Jezyk_martwy(poziom_trudnosci, poziom_zaawansowania, nauczyciel, lat_nauki, zasady_skladni,
-                                         udokumentowane_zasady_wymowy, unikalne_pismo, posiada_slownik, slownik, zasady_wymowy);
+    string alfabet = pobierz_str("Podaj alfabet", "Przykladowy alfabet");
+    string przypadki = pobierz_str("Podaj przypadek", "Przykladowy przypadek");
+
+     Slowianskie* tmp = new Slowianskie(poziom_trudnosci, poziom_zaawansowania, nauczyciel, lat_nauki, zasady_skladni, lista_czasow_gramatycznych,
+     posiada_rodzajniki, kraje_uzywania, slownik, zasady_gramatyczne, zasady_wymowy, alfabet, przypadki);
 
     Element_list_klas nowy;
     nowy.nazwa_klasy = nazwa;
@@ -279,8 +324,42 @@ void Interface::jezyk_martwy_interface_tworzenie()
     lista_klas.push_back(nowy);
     interface_glowny();
 }
-void Interface::jezyk_martwy_interface_wyswietlanie()
+void Interface::slowianskie_interface_wyswietlanie()
 {
+
 }
 
+void Interface::romanskie_interface_tworzenie()
+{
+
+    string nazwa = pobierz_str("Podaj nazwę instancji", "Domyslna nazywa instancji");
+    Jezyk::Poziom_trudnosci poziom_trudnosci = static_cast<Jezyk::Poziom_trudnosci>(pobierz_int("Podaj poziom trudności języka \n 0)łatwy, 1)średnio trudny, 2)trudny", 1));
+    Jezyk::Poziom_zaawansowania poziom_zaawansowania =  static_cast<Jezyk::Poziom_zaawansowania>(pobierz_int("Podaj poziom zaawansowania \n  0) początkujący, 1)średniozaawansowany, 2) zaawansowany, 3) biegły", 2));
+    string nauczyciel = pobierz_str("Podaj jak nazywa się Nauczyciel", "Nauczyciel domyslny");
+    float lat_nauki = pobierz_int("Podaj ile tat trwała nauka", 5);
+    string zasady_skladni = pobierz_str("Podaj zasadę składni", "Pierwsza zasada składni");
+    string lista_czasow_gramatycznych =  pobierz_str("Podaj czas gramatyczną", "Pierwszy czas gramatyczny");
+    bool posiada_rodzajniki = pobierz_bool("Czy jezyk posiada rodzajniki wybierz 0) NIE, 1) TAK", true);
+    string kraje_uzywania = pobierz_str( "Napisz w jakim kraju jest ten język używany", "Pierwszy kraj uzywania");
+
+    Slownik slownik;
+
+    string zasady_gramatyczne = pobierz_str("Podaj zasadę gramatyczną", "Pierwsza zasada gramatyczna");
+    string zasady_wymowy = pobierz_str("Podaj zasadę wymowy","Pierwsza zasada wymowy");
+
+    bool liaison = pobierz_bool("Czy posiada liaison? 0) Nie, 1) Tak:", 1);
+    char znak_niestandardowy = pobierz_str("Podaj znak niestandardwy", "ą").c_str()[0];
+
+    Romanskie* tmp = new Romanskie(poziom_trudnosci, poziom_zaawansowania, nauczyciel, lat_nauki, zasady_skladni, lista_czasow_gramatycznych,
+     posiada_rodzajniki, kraje_uzywania, slownik, zasady_gramatyczne, zasady_wymowy, liaison, znak_niestandardowy);
+
+    Element_list_klas nowy;
+    nowy.nazwa_klasy = nazwa;
+    nowy.wskaznik_na_obiekt = tmp;
+    lista_klas.push_back(nowy);
+    interface_glowny();
+}
+void Interface::romanskie_interface_wyswietlanie()
+{
+}
 
