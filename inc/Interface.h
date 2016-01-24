@@ -42,13 +42,17 @@ public:
   void jezyk_martwy_interface_tworzenie();
   void jezyk_martwy_interface_wyswietlanie();
 
-
   void romanskie_interface_tworzenie();
   void romanskie_interface_wyswietlanie();
 
   void slowianskie_interface_tworzenie();
   void slowianskie_interface_wyswietlanie();
 
+  void IIIciej_generacji_interface_tworzenie();
+  void IIIciej_generacji_interface_wyswietlanie();
+
+  void IVtej_generacji_interface_tworzenie();
+  void IVtej_generacji_interface_wyswietlanie();
   //void pokaz_zawartosc_wszystkich_obiektow();
   Element_list_klas znajdz_instancje();
 

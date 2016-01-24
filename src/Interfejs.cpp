@@ -7,6 +7,8 @@
 #include "../inc/Jezyk_martwy.h"
 #include "../inc/Slowianskie.h"
 #include "../inc/Romanskie.h"
+#include "../inc/IIIciej_generacji.h"
+#include "../inc/IVtej_generacji.h"
 
 #include <iostream>
 #include <string>
@@ -111,7 +113,9 @@ void Interface::interface_glowny()
     cout << "d) Utworzenie lub podglad instancji klasy Jezyk_martwy" << endl;
     cout << "e) Utworzenie lub podglad instancji klasy Slowianskie" << endl;
     cout << "f) Utworzenie lub podglad instancji klasy Romanskie" << endl;
-
+    cout << "g) Utworzenie lub podglad instancji klasy IIIciej_generacji" << endl;
+    cout << "h) Utworzenie lub podglad instancji klasy IVtej_generacji" << endl;
+    
     cout << "x) Zamknij program" << endl;
     cout << "z) Demonstracja dzialania funkcji wirtualnej \"pokaz_zawartosc\"" << endl;
     cin >> wybor;
@@ -136,6 +140,13 @@ void Interface::interface_glowny()
         case 'f':
                 jezyk_interface_klasa(&Interface::romanskie_interface_tworzenie, &Interface::romanskie_interface_wyswietlanie);
             break;
+        case 'g':
+                jezyk_interface_klasa(&Interface::IIIciej_generacji_interface_tworzenie, &Interface::IIIciej_generacji_interface_wyswietlanie);
+            break;
+        case 'h':
+                jezyk_interface_klasa(&Interface::IVtej_generacji_interface_tworzenie, &Interface::IVtej_generacji_interface_wyswietlanie);
+            break;
+
         case 'x':
             {
                 exit(0);
@@ -360,6 +371,66 @@ void Interface::romanskie_interface_tworzenie()
     interface_glowny();
 }
 void Interface::romanskie_interface_wyswietlanie()
+{
+}
+
+
+void Interface::IIIciej_generacji_interface_tworzenie()
+{
+    string nazwa = pobierz_str("Podaj nazwę instancji", "Domyslna nazywa instancji");
+    Jezyk::Poziom_trudnosci poziom_trudnosci = static_cast<Jezyk::Poziom_trudnosci>(pobierz_int("Podaj poziom trudności języka \n 0)łatwy, 1)średnio trudny, 2)trudny", 1));
+    Jezyk::Poziom_zaawansowania poziom_zaawansowania =  static_cast<Jezyk::Poziom_zaawansowania>(pobierz_int("Podaj poziom zaawansowania \n  0) początkujący, 1)średniozaawansowany, 2) zaawansowany, 3) biegły", 2));
+    string nauczyciel = pobierz_str("Podaj jak nazywa się Nauczyciel", "Nauczyciel domyslny");
+    float lat_nauki = pobierz_int("Podaj ile tat trwała nauka", 5);
+    string zasady_skladni = pobierz_str("Podaj zasadę składni", "Pierwsza zasada składni");
+
+    bool jest_obiektowy = pobierz_bool("Czy jest obiektowy 0) Nie, 1)Tak", 0);
+    bool posiada_skladnie_klamrowa = pobierz_bool("Czy posiada składnie klamrową/ 0)Nie 1)Tak)", 0);
+    string znane_biblioteki = pobierz_str("Podaj znaną bibliotekę ", "Biblioteka Domyślna");
+    string znane_algorytmy = pobierz_str("Podaj znane algorytmy ", "Domyslny algorytm");
+    bool posiada_wskazniki = pobierz_bool("Czy posiada wskaźniki? 0) Nie 1) Tak ", 0);
+
+
+    IIIciej_generacji* tmp = new IIIciej_generacji(poziom_trudnosci, poziom_zaawansowania, nauczyciel, lat_nauki, zasady_skladni, 
+                                                   jest_obiektowy, posiada_skladnie_klamrowa, znane_biblioteki, znane_algorytmy, posiada_wskazniki);
+
+    Element_list_klas nowy;
+    nowy.nazwa_klasy = nazwa;
+    nowy.wskaznik_na_obiekt = tmp;
+    lista_klas.push_back(nowy);
+    interface_glowny();
+}
+void Interface::IIIciej_generacji_interface_wyswietlanie()
+{
+}
+
+void Interface::IVtej_generacji_interface_tworzenie()
+{
+    string nazwa = pobierz_str("Podaj nazwę instancji", "Domyslna nazywa instancji");
+    Jezyk::Poziom_trudnosci poziom_trudnosci = static_cast<Jezyk::Poziom_trudnosci>(pobierz_int("Podaj poziom trudności języka \n 0)łatwy, 1)średnio trudny, 2)trudny", 1));
+    Jezyk::Poziom_zaawansowania poziom_zaawansowania =  static_cast<Jezyk::Poziom_zaawansowania>(pobierz_int("Podaj poziom zaawansowania \n  0) początkujący, 1)średniozaawansowany, 2) zaawansowany, 3) biegły", 2));
+    string nauczyciel = pobierz_str("Podaj jak nazywa się Nauczyciel", "Nauczyciel domyslny");
+    float lat_nauki = pobierz_int("Podaj ile tat trwała nauka", 5);
+    string zasady_skladni = pobierz_str("Podaj zasadę składni", "Pierwsza zasada składni");
+
+    bool jest_obiektowy = pobierz_bool("Czy jest obiektowy 0) Nie, 1)Tak", 0);
+    bool posiada_skladnie_klamrowa = pobierz_bool("Czy posiada składnie klamrową/ 0)Nie 1)Tak)", 0);
+    string znane_biblioteki = pobierz_str("Podaj znaną bibliotekę ", "Biblioteka Domyślna");
+    string znane_algorytmy = pobierz_str("Podaj znane algorytmy ", "Domyslny algorytm");
+    bool posiada_klasy = pobierz_bool("Czy posiada klasy? 0) Nie 1) Tak ", 0);
+
+
+    IVtej_generacji* tmp = new IVtej_generacji(poziom_trudnosci, poziom_zaawansowania, nauczyciel, lat_nauki, zasady_skladni, 
+                                                   jest_obiektowy, posiada_skladnie_klamrowa, znane_biblioteki, znane_algorytmy, 
+                                                   posiada_klasy);
+
+    Element_list_klas nowy;
+    nowy.nazwa_klasy = nazwa;
+    nowy.wskaznik_na_obiekt = tmp;
+    lista_klas.push_back(nowy);
+    interface_glowny();
+}
+void Interface::IVtej_generacji_interface_wyswietlanie()
 {
 }
 

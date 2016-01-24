@@ -30,7 +30,10 @@
  | |-Jezyk_sztuczny.cpp
  | |-Jezyk_martwy.cpp
  | |-miasi.cpp
+ | |-Jezyk_programowania.cpp
  | |-Jezyk_migowy.cpp
+ | |-IIIciej_generacji.cpp
+ | |-IVtej_generacji.cpp
  | |-Slowianskie.cpp
  | |-Germanskie.cpp
  | |-Romanskie.cpp

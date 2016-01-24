@@ -26,7 +26,6 @@ class Jezyk_sztuczny: public Jezyk_naturalny
         virtual void pokaz_zawartosc();
 
         Jezyk_sztuczny(
-
                        Poziom_trudnosci _poziom_trudnosci,
                        Poziom_zaawansowania _poziom_zaawansowania,
                        std::string _nauczyciel,
