@@ -2,6 +2,7 @@
 #define Jezyk_h
 #include "Baza_danych.h"
 #include <string>
+#include <vector>
 
 class Jezyk: public Baza_danych
 {
@@ -15,7 +16,7 @@ class Jezyk: public Baza_danych
         enum Poziom_zaawansowania poziom_zaawasowania;
         std::string nauczyciel;
         float lat_nauki;
-        std::string* zasady_skladni;
+        std::vector<std::string> zasady_skladni;
 
     public:
         //metody:
@@ -31,7 +32,7 @@ class Jezyk: public Baza_danych
               Poziom_zaawansowania _poziom_zaawansowania,
               std::string _nauczyciel,
               float _lat_nauki,
-              std::string* _zasady_skladni);
+              std::string _zasady_skladni);
 
 };
 

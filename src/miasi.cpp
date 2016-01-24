@@ -1,4 +1,5 @@
 #include "../inc/Jezyk_sztuczny.h"
+#include "../inc/Interface.h"
 
 using namespace std;
 int main()
@@ -22,11 +23,11 @@ int main()
   string _jezyk_wzorcowy = "Pierwsz jezyk wzorcowy";
   bool _jest_w_uzyciu = true;
 
-  Jezyk_sztuczny a =  Jezyk_sztuczny(_poziom_trudnosci, _poziom_zaawansowania, _nauczyciel, _lat_nauki, &_zasady_skladni, &_lista_czasow_gramatycznych,
-     _posiada_rodzajniki, &_kraje_uzywania, _slownik, &_zasady_gramatyczne, &_zasady_wymowy, _jezykotworca, _cel_utworzenia, _jezyk_wzorcowy, _jest_w_uzyciu);
+  Jezyk_sztuczny a =  Jezyk_sztuczny(_poziom_trudnosci, _poziom_zaawansowania, _nauczyciel, _lat_nauki, _zasady_skladni, _lista_czasow_gramatycznych,
+     _posiada_rodzajniki, _kraje_uzywania, _slownik, _zasady_gramatyczne, _zasady_wymowy, _jezykotworca, _cel_utworzenia, _jezyk_wzorcowy, _jest_w_uzyciu);
     
   a.pokaz_zawartosc();
 
-  //    Interface interfaceZal;
-  //    interfaceZal.interface_glowny();
+      Interface interfaceZal;
+      interfaceZal.interface_glowny();
 }

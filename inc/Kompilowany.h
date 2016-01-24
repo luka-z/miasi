@@ -1,5 +1,5 @@
-#ifndef Kompilowany
-#define Kompilowany
+#ifndef Kompilowany_h
+#define Kompilowany_h
 
 class Kompilowany
 {

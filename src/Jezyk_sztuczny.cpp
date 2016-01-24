@@ -1,6 +1,5 @@
 #include <iostream>
-#include <cstdlib>
-#include <cstring>
+#include <string>
 #include "../inc/Jezyk_sztuczny.h"
 
 using namespace std;
@@ -10,13 +9,13 @@ Jezyk_sztuczny::Jezyk_sztuczny(
                                Poziom_zaawansowania _poziom_zaawansowania,
                                std::string _nauczyciel,
                                float _lat_nauki,
-                               std::string* _zasady_skladni,
-                               std::string* _lista_czasow_gramatycznych,
+                               std::string _zasady_skladni,
+                               std::string _lista_czasow_gramatycznych,
                                bool _posiada_rodzajniki,
-                               std::string* _kraje_uzywania,
+                               std::string _kraje_uzywania,
                                Slownik _slownik,
-                               std::string* _zasady_gramatyczne,
-                               std::string* _zasady_wymowy,
+                               std::string _zasady_gramatyczne,
+                               std::string _zasady_wymowy,
 
                                std::string _jezykotworca,
                                Cel_utworzenia _cel_utworzenia,

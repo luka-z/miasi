@@ -28,7 +28,10 @@
  | |-Jezyk.cpp
  | |-Jezyk_naturalny.cpp
  | |-Jezyk_sztuczny.cpp
+ | |-Jezyk_martwy.cpp
  | |-miasi.cpp
+ | |-Jezyk_migowy.cpp
+ | |-Germanskie.cpp
  | |-Slownik.cpp }
  |
  |-makefile

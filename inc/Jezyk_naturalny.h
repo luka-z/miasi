@@ -6,18 +6,19 @@
 #include "../inc/Baza_danych.h"
 
 #include <string>
+#include <vector>
 
 class Jezyk_naturalny: public Jezyk
 {
     private:
 
         //atrybuty:
-        std::string* lista_czasow_gramatycznych;
+        std::vector<std::string> lista_czasow_gramatycznych;
         bool posiada_rodzajniki;
-        std::string* kraje_uzywania;
+        std::vector<std::string> kraje_uzywania;
         Slownik slownik;
-        std::string* zasady_gramatyczne;
-        std::string* zasady_wymowy;
+        std::vector<std::string> zasady_gramatyczne;
+        std::vector<std::string> zasady_wymowy;
 
     public:
         //metody:
@@ -34,14 +35,14 @@ class Jezyk_naturalny: public Jezyk
               Poziom_zaawansowania _poziom_zaawansowania,
               std::string _nauczyciel,
               float _lat_nauki,
-              std::string* _zasady_skladni,
+              std::string _zasady_skladni,
 
-              std::string* _lista_czasow_gramatycznych,
+              std::string _lista_czasow_gramatycznych,
               bool _posiada_rodzajniki,
-              std::string* _kraje_uzywania,
+              std::string _kraje_uzywania,
               Slownik _slownik,
-              std::string* _zasady_gramatyczne,
-              std::string* _zasady_wymowy);
+              std::string _zasady_gramatyczne,
+              std::string _zasady_wymowy);
 };
 
 #endif
