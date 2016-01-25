@@ -1,22 +1,27 @@
-#ifndef Uzytkownik
-#define Uzytkownik
+#ifndef Uzytkownik_h
+#define Uzytkownik_h
+
+#include <string>
+#include <vector>
 
 class Uzytkownik
 {
     private:
         //atrybuty:
-        string imie_nazwisko;
+        std::string imie_nazwisko;
         int wiek;
-        string znane_jezyki[];
-        string opis;
+        std::vector<std::string> znane_jezyki;
+        std::string opis;
 
     //metody:
         void utworz_profil();
         void zmien_profil();
-        void pokaz_profil();
         void wyslij_wiadomosc();
         void czytaj_wiadomosc();
         void polacz_komunikatorem();
+    public: 
+        void pokaz_profil();
+        Uzytkownik(std::string _imie_nazwisko, int _wiek, std::string _znane_jezyki, std::string _opis);
 };
 
 #endif

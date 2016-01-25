@@ -4,6 +4,9 @@
 #include <vector>
 #include <string>
 #include "../inc/Baza_danych.h"
+#include "../inc/Kompilowany.h"
+#include "../inc/Interpretowany.h"
+#include "../inc/Administrator.h"
 
 //using namespace std;
 class Element_list_klas
@@ -13,11 +16,35 @@ public:
   std::string nazwa_klasy;
 };
 
+class Element_list_klas_interpretowany
+{
+public:
+  Interpretowany* wskaznik_na_obiekt;
+  std::string nazwa_klasy;
+};
+
+class Element_list_klas_kompilowany
+{
+public:
+  Kompilowany* wskaznik_na_obiekt;
+  std::string nazwa_klasy;
+};
+
+class Element_list_klas_admistrator
+{
+public:
+  Administrator* wskaznik_na_obiekt;
+  std::string nazwa_klasy;
+};
+
 class Interface
 {
 
 private:
   std::vector <Element_list_klas> lista_klas;
+  std::vector <Element_list_klas_interpretowany> lista_klas_interpretowany;
+  std::vector <Element_list_klas_kompilowany> lista_klas_kompilowany;
+  std::vector <Element_list_klas_admistrator> lista_klas_administrator;
 
   std::string pobierz_str(std::string co_pobrac, std::string wartosc_domyslna);
   int         pobierz_int(std::string co_pobrac, int wartosc_domyslna);
@@ -53,6 +80,16 @@ public:
 
   void IVtej_generacji_interface_tworzenie();
   void IVtej_generacji_interface_wyswietlanie();
+
+  void Interpretowany_interface_tworzenie();
+  void Interpretowany_interface_wyswietlanie();
+  
+  void Kompilowany_interface_tworzenie();
+  void Kompilowany_interface_wyswietlanie();
+  
+  void Administrator_interface_tworzenie();
+  void Administrator_interface_wyswietlanie();
+
   //void pokaz_zawartosc_wszystkich_obiektow();
   Element_list_klas znajdz_instancje();
 

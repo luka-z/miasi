@@ -10,6 +10,7 @@
 #include "../inc/IIIciej_generacji.h"
 #include "../inc/IVtej_generacji.h"
 
+
 #include <iostream>
 #include <string>
 #include <cstdlib>
@@ -115,6 +116,8 @@ void Interface::interface_glowny()
     cout << "f) Utworzenie lub podglad instancji klasy Romanskie" << endl;
     cout << "g) Utworzenie lub podglad instancji klasy IIIciej_generacji" << endl;
     cout << "h) Utworzenie lub podglad instancji klasy IVtej_generacji" << endl;
+    cout << "i) Utworzenie lub podglad instancji klasy Interpretowany" << endl;
+    cout << "j) Utworzenie lub podglad instancji klasy Kompilowany" << endl;
     
     cout << "x) Zamknij program" << endl;
     cout << "z) Demonstracja dzialania funkcji wirtualnej \"pokaz_zawartosc\"" << endl;
@@ -146,7 +149,12 @@ void Interface::interface_glowny()
         case 'h':
                 jezyk_interface_klasa(&Interface::IVtej_generacji_interface_tworzenie, &Interface::IVtej_generacji_interface_wyswietlanie);
             break;
-
+        case 'i':
+                jezyk_interface_klasa(&Interface::Interpretowany_interface_tworzenie, &Interface::Interpretowany_interface_wyswietlanie);
+            break;
+        case 'j':
+                jezyk_interface_klasa(&Interface::Kompilowany_interface_tworzenie, &Interface::Kompilowany_interface_wyswietlanie);
+            break;
         case 'x':
             {
                 exit(0);
@@ -431,6 +439,89 @@ void Interface::IVtej_generacji_interface_tworzenie()
     interface_glowny();
 }
 void Interface::IVtej_generacji_interface_wyswietlanie()
+{
+}
+
+
+
+void Interface::Interpretowany_interface_tworzenie()
+{
+    string nazwa = pobierz_str("Podaj nazwę instancji", "Domyslna nazywa instancji");
+    Jezyk::Poziom_trudnosci poziom_trudnosci = static_cast<Jezyk::Poziom_trudnosci>(pobierz_int("Podaj poziom trudności języka \n 0)łatwy, 1)średnio trudny, 2)trudny", 1));
+    Jezyk::Poziom_zaawansowania poziom_zaawansowania =  static_cast<Jezyk::Poziom_zaawansowania>(pobierz_int("Podaj poziom zaawansowania \n  0) początkujący, 1)średniozaawansowany, 2) zaawansowany, 3) biegły", 2));
+    string nauczyciel = pobierz_str("Podaj jak nazywa się Nauczyciel", "Nauczyciel domyslny");
+    float lat_nauki = pobierz_int("Podaj ile tat trwała nauka", 5);
+    string zasady_skladni = pobierz_str("Podaj zasadę składni", "Pierwsza zasada składni");
+
+    bool jest_obiektowy = pobierz_bool("Czy jest obiektowy 0) Nie, 1)Tak", 0);
+    bool posiada_skladnie_klamrowa = pobierz_bool("Czy posiada składnie klamrową/ 0)Nie 1)Tak)", 0);
+    string znane_biblioteki = pobierz_str("Podaj znaną bibliotekę ", "Biblioteka Domyślna");
+    string znane_algorytmy = pobierz_str("Podaj znane algorytmy ", "Domyslny algorytm");
+    string interpreter = pobierz_str("Podaj interpreter", "Domyślny interpreter");
+    bool kontrola_typow = pobierz_bool("Czy posiada kontrolę typów 0) Nie, 1)Tak", 0);
+
+    Interpretowany* tmp = new Interpretowany(poziom_trudnosci, poziom_zaawansowania, nauczyciel, lat_nauki, zasady_skladni, 
+                                                   jest_obiektowy, posiada_skladnie_klamrowa, znane_biblioteki, znane_algorytmy, 
+                                                   interpreter, kontrola_typow);
+
+    Element_list_klas_interpretowany nowy;
+    nowy.nazwa_klasy = nazwa;
+    nowy.wskaznik_na_obiekt = tmp;
+    lista_klas_interpretowany.push_back(nowy);
+    interface_glowny();
+}
+void Interface::Interpretowany_interface_wyswietlanie()
+{
+}
+
+void Interface::Kompilowany_interface_tworzenie()
+{
+    string nazwa = pobierz_str("Podaj nazwę instancji", "Domyslna nazywa instancji");
+    Jezyk::Poziom_trudnosci poziom_trudnosci = static_cast<Jezyk::Poziom_trudnosci>(pobierz_int("Podaj poziom trudności języka \n 0)łatwy, 1)średnio trudny, 2)trudny", 1));
+    Jezyk::Poziom_zaawansowania poziom_zaawansowania =  static_cast<Jezyk::Poziom_zaawansowania>(pobierz_int("Podaj poziom zaawansowania \n  0) początkujący, 1)średniozaawansowany, 2) zaawansowany, 3) biegły", 2));
+    string nauczyciel = pobierz_str("Podaj jak nazywa się Nauczyciel", "Nauczyciel domyslny");
+    float lat_nauki = pobierz_int("Podaj ile tat trwała nauka", 5);
+    string zasady_skladni = pobierz_str("Podaj zasadę składni", "Pierwsza zasada składni");
+
+    bool jest_obiektowy = pobierz_bool("Czy jest obiektowy 0) Nie, 1)Tak", 0);
+    bool posiada_skladnie_klamrowa = pobierz_bool("Czy posiada składnie klamrową/ 0)Nie 1)Tak)", 0);
+    string znane_biblioteki = pobierz_str("Podaj znaną bibliotekę ", "Biblioteka Domyślna");
+    string znane_algorytmy = pobierz_str("Podaj znane algorytmy ", "Domyslny algorytm");
+    string kompilator = pobierz_str("Podaj kompilator ", "Domyślny kompilator");
+    bool posiada_funkcje_niskopoziomowe = pobierz_bool("Czy posiada funkcje niskopoziomowe 0) Nie, 1)Tak", 0);
+
+    Kompilowany* tmp = new Kompilowany(poziom_trudnosci, poziom_zaawansowania, nauczyciel, lat_nauki, zasady_skladni, 
+                                                   jest_obiektowy, posiada_skladnie_klamrowa, znane_biblioteki, znane_algorytmy, 
+                                                   kompilator, posiada_funkcje_niskopoziomowe);
+
+    Element_list_klas_kompilowany nowy;
+    nowy.nazwa_klasy = nazwa;
+    nowy.wskaznik_na_obiekt = tmp;
+    lista_klas_kompilowany.push_back(nowy);
+    interface_glowny();
+}
+void Interface::Kompilowany_interface_wyswietlanie()
+{
+}
+
+void Interface::Administrator_interface_tworzenie()
+{
+    string nazwa = pobierz_str("Podaj nazwę instancji", "Domyslna nazywa instancji");
+    string imie_nazwisko = pobierz_str("Podaj imie i nazwisko", "Domyslny Administrator");
+    int wiek = pobierz_int("Podaj wiek", 20);
+    string znane_jezyki = pobierz_str("Podaj znane języki", "Jezyk Domyślny");
+    string opis = pobierz_str("Podaj opis", "Domyślny opis");
+
+    Administrator* tmp = new Administrator(imie_nazwisko, wiek, znane_jezyki,opis);
+
+
+    Element_list_klas_admistrator nowy;
+    nowy.nazwa_klasy = nazwa;
+    nowy.wskaznik_na_obiekt = tmp;
+    lista_klas_administrator.push_back(nowy);
+    interface_glowny();
+}
+void Interface::Administrator_interface_wyswietlanie()
 {
 }
 

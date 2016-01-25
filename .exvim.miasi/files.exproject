@@ -23,6 +23,8 @@
  | |-Uzytkownik.h }
  |
  |-[F]src {
+ | |-Administrator.cpp
+ | |-Urzytkownik.cpp
  | |-Baza_danych.cpp
  | |-Interfejs.cpp
  | |-Jezyk.cpp
@@ -32,8 +34,10 @@
  | |-miasi.cpp
  | |-Jezyk_programowania.cpp
  | |-Jezyk_migowy.cpp
+ | |-Kompilowany.cpp
  | |-IIIciej_generacji.cpp
  | |-IVtej_generacji.cpp
+ | |-Interpretowany.cpp
  | |-Slowianskie.cpp
  | |-Germanskie.cpp
  | |-Romanskie.cpp
