@@ -10,7 +10,7 @@
 #include "../inc/IIIciej_generacji.h"
 #include "../inc/IVtej_generacji.h"
 
-
+#include <typeinfo>
 #include <iostream>
 #include <string>
 #include <cstdlib>
@@ -36,6 +36,7 @@ int Interface::pobierz_int(string co_pobrac, int wartosc_domyslna)
 {
     cout << co_pobrac << "i naciśnij ENTER ["<< wartosc_domyslna << "]:" <<endl;
     string pobrano;
+    cin.ignore();
     getline(cin, pobrano);
     if(pobrano.empty())
     {
@@ -48,12 +49,21 @@ bool Interface::pobierz_bool(string co_pobrac, bool wartosc_domyslna)
 {
     cout << co_pobrac << "i naciśnij ENTER ["<< wartosc_domyslna << "]:" <<endl;
     string pobrano;
+    cin.ignore();
     getline(cin, pobrano);
     if(pobrano.empty())
     {
       return wartosc_domyslna;
     }
     return static_cast<bool>(atoi(pobrano.c_str()));
+}
+
+
+void Interface::czekaj()
+{
+  cout << "Aby kontynuować naciśnij ENTER" <<endl;
+    string pobrano;
+    getline(cin, pobrano);
 }
 
 #define CALL_MEMBER_FN(object,ptrToMember)  ((object).*(ptrToMember))
@@ -79,7 +89,8 @@ void Interface::jezyk_interface_klasa(Interface_klasa_ptr stworz, Interface_klas
       break;
     case 'x':
       {
-        exit(0);
+        return;
+        //exit(0);
       }
       break;
     case 'b':
@@ -103,6 +114,8 @@ void Interface::jezyk_interface_klasa(Interface_klasa_ptr stworz, Interface_klas
 
 void Interface::interface_glowny()
 {
+    while(1)
+    {
     char wybor = '0';
     //clrscr();
     cout << "Witam w programie zaliczeniowym z przedmiotu MIASI" <<endl;
@@ -118,7 +131,7 @@ void Interface::interface_glowny()
     cout << "h) Utworzenie lub podglad instancji klasy IVtej_generacji" << endl;
     cout << "i) Utworzenie lub podglad instancji klasy Interpretowany" << endl;
     cout << "j) Utworzenie lub podglad instancji klasy Kompilowany" << endl;
-    
+
     cout << "x) Zamknij program" << endl;
     cout << "z) Demonstracja dzialania funkcji wirtualnej \"pokaz_zawartosc\"" << endl;
     cin >> wybor;
@@ -162,7 +175,7 @@ void Interface::interface_glowny()
             break;
         case 'z':
             {
-                //pokaz_zawartosc_wszystkich_obiektow();
+                pokaz_zawartosc_wszystkich_obiektow();
             }
             break;
         default:
@@ -171,6 +184,7 @@ void Interface::interface_glowny()
                 interface_glowny();
             }
             break;
+    }
     }
 
 }
@@ -202,13 +216,16 @@ void Interface::jezyk_sztuczny_interface_tworzenie()
 
     Element_list_klas nowy;
     nowy.nazwa_klasy = nazwa;
+    nowy.typ_klasy = "Jezyk_sztuczny";
     nowy.wskaznik_na_obiekt = tmp;
     lista_klas.push_back(nowy);
-    interface_glowny();
+    //interface_glowny();
 }
+
 void Interface::jezyk_sztuczny_interface_wyswietlanie()
 {
-
+ pokaz_instancje("Jezyk_sztuczny");
+ //interface_glowny();
 }
 
 void Interface::jezyk_migowy_interface_tworzenie()
@@ -239,12 +256,15 @@ void Interface::jezyk_migowy_interface_tworzenie()
 
     Element_list_klas nowy;
     nowy.nazwa_klasy = nazwa;
+    nowy.typ_klasy = "Jezyk_migowy";
     nowy.wskaznik_na_obiekt = tmp;
     lista_klas.push_back(nowy);
-    interface_glowny();
+    //interface_glowny();
 }
 void Interface::jezyk_migowy_interface_wyswietlanie()
 {
+  pokaz_instancje("Jezyk_migowy");
+ //interface_glowny();
 }
 
 void Interface::jezyk_martwy_interface_tworzenie()
@@ -268,12 +288,15 @@ void Interface::jezyk_martwy_interface_tworzenie()
 
     Element_list_klas nowy;
     nowy.nazwa_klasy = nazwa;
+    nowy.typ_klasy = "Jezyk_martwy";
     nowy.wskaznik_na_obiekt = tmp;
     lista_klas.push_back(nowy);
-    interface_glowny();
+    //interface_glowny();
 }
 void Interface::jezyk_martwy_interface_wyswietlanie()
 {
+  pokaz_instancje("Jezyk_martwy");
+ //interface_glowny();
 }
 
 void Interface::germanskie_interface_tworzenie()
@@ -304,12 +327,15 @@ void Interface::germanskie_interface_tworzenie()
 
     Element_list_klas nowy;
     nowy.nazwa_klasy = nazwa;
+    nowy.typ_klasy = "Jezyk_migowy";
     nowy.wskaznik_na_obiekt = tmp;
     lista_klas.push_back(nowy);
-    interface_glowny();
+ //   interface_glowny();
 }
 void Interface::germanskie_interface_wyswietlanie()
 {
+  pokaz_instancje("Jezyk_migowy");
+ //interface_glowny();
 }
 
 
@@ -339,13 +365,15 @@ void Interface::slowianskie_interface_tworzenie()
 
     Element_list_klas nowy;
     nowy.nazwa_klasy = nazwa;
+    nowy.typ_klasy = "Slowianskie";
     nowy.wskaznik_na_obiekt = tmp;
     lista_klas.push_back(nowy);
-    interface_glowny();
+ //   interface_glowny();
 }
 void Interface::slowianskie_interface_wyswietlanie()
 {
-
+  pokaz_instancje("Slowianskie");
+ //interface_glowny();
 }
 
 void Interface::romanskie_interface_tworzenie()
@@ -374,12 +402,15 @@ void Interface::romanskie_interface_tworzenie()
 
     Element_list_klas nowy;
     nowy.nazwa_klasy = nazwa;
+    nowy.typ_klasy = "Romanskie";
     nowy.wskaznik_na_obiekt = tmp;
     lista_klas.push_back(nowy);
-    interface_glowny();
+ //   interface_glowny();
 }
 void Interface::romanskie_interface_wyswietlanie()
 {
+  pokaz_instancje("Romanskie");
+ //interface_glowny();
 }
 
 
@@ -404,12 +435,15 @@ void Interface::IIIciej_generacji_interface_tworzenie()
 
     Element_list_klas nowy;
     nowy.nazwa_klasy = nazwa;
+    nowy.typ_klasy = "IIIciej_generacji";
     nowy.wskaznik_na_obiekt = tmp;
     lista_klas.push_back(nowy);
-    interface_glowny();
+ //   interface_glowny();
 }
 void Interface::IIIciej_generacji_interface_wyswietlanie()
 {
+  pokaz_instancje("IIIciej_generacji");
+ //interface_glowny();
 }
 
 void Interface::IVtej_generacji_interface_tworzenie()
@@ -435,11 +469,14 @@ void Interface::IVtej_generacji_interface_tworzenie()
     Element_list_klas nowy;
     nowy.nazwa_klasy = nazwa;
     nowy.wskaznik_na_obiekt = tmp;
+    nowy.typ_klasy = "IVtej_generacji";
     lista_klas.push_back(nowy);
-    interface_glowny();
+ //   interface_glowny();
 }
 void Interface::IVtej_generacji_interface_wyswietlanie()
 {
+  pokaz_instancje("IVtej_generacji");
+ //interface_glowny();
 }
 
 
@@ -468,7 +505,7 @@ void Interface::Interpretowany_interface_tworzenie()
     nowy.nazwa_klasy = nazwa;
     nowy.wskaznik_na_obiekt = tmp;
     lista_klas_interpretowany.push_back(nowy);
-    interface_glowny();
+ //   interface_glowny();
 }
 void Interface::Interpretowany_interface_wyswietlanie()
 {
@@ -498,7 +535,7 @@ void Interface::Kompilowany_interface_tworzenie()
     nowy.nazwa_klasy = nazwa;
     nowy.wskaznik_na_obiekt = tmp;
     lista_klas_kompilowany.push_back(nowy);
-    interface_glowny();
+ //   interface_glowny();
 }
 void Interface::Kompilowany_interface_wyswietlanie()
 {
@@ -519,9 +556,62 @@ void Interface::Administrator_interface_tworzenie()
     nowy.nazwa_klasy = nazwa;
     nowy.wskaznik_na_obiekt = tmp;
     lista_klas_administrator.push_back(nowy);
-    interface_glowny();
+ //   interface_glowny();
 }
 void Interface::Administrator_interface_wyswietlanie()
 {
 }
+
+
+void Interface::pokaz_zawartosc_wszystkich_obiektow()
+{
+  cout << "Funkcja pokazująca zawartość wszystkich obiektów kozystając z \n funkcji virtual pokaz_zawartosc()"<<endl;
+  for(unsigned int i = 0 ; i <lista_klas.size(); i++)
+  {
+
+    cout <<"Klasa = "<<typeid(lista_klas[i].wskaznik_na_obiekt).name() << " nazwa instancji = " << lista_klas[i].nazwa_klasy <<endl;
+    lista_klas[i].wskaznik_na_obiekt->pokaz_zawartosc();
+  }
+  czekaj();
+ // interface_glowny();
+}
+
+void Interface::znajdz_instancje(std::string _typ_klasy, std::vector<Element_list_klas>& lista)
+{
+  for(auto klasa : lista_klas)
+  {
+    if(klasa.typ_klasy == _typ_klasy)
+      lista.push_back(klasa);
+  }
+}
+
+void Interface::pokaz_instancje(std::string typ_klasy)
+{
+
+  vector<Element_list_klas> lista_znalezionych;
+  znajdz_instancje(typ_klasy , lista_znalezionych);
+  if(lista_znalezionych.empty())
+  {
+    cout << "Nie znaleziono instancji klasy "<<typ_klasy <<endl;
+    czekaj();
+    return;
+  }
+
+    cout<<"Znaleziono następujące instacje klasy "<<typ_klasy << ":" <<endl;
+    for (unsigned int i = 0; i <lista_znalezionych.size(); i++)
+    {
+      cout << i << ") "<< lista_znalezionych[i].nazwa_klasy <<endl;
+    }
+
+    unsigned int do_wyswietlenia = 1000;
+    do{
+      do_wyswietlenia = pobierz_int("Wybierz numer instancji do wyswietlenia ", 0);
+      cout << "Wybrano = " << do_wyswietlenia <<endl;
+    }while(do_wyswietlenia <0 || do_wyswietlenia>lista_znalezionych.size());
+
+
+    lista_znalezionych[do_wyswietlenia].wskaznik_na_obiekt->pokaz_zawartosc();
+    czekaj();
+}
+
 

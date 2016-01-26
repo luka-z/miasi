@@ -7,12 +7,13 @@
 #include "../inc/Kompilowany.h"
 #include "../inc/Interpretowany.h"
 #include "../inc/Administrator.h"
-
+#include <typeinfo>
 //using namespace std;
 class Element_list_klas
 {
 public:
   Baza_danych* wskaznik_na_obiekt;
+  std::string typ_klasy;
   std::string nazwa_klasy;
 };
 
@@ -49,11 +50,12 @@ private:
   std::string pobierz_str(std::string co_pobrac, std::string wartosc_domyslna);
   int         pobierz_int(std::string co_pobrac, int wartosc_domyslna);
   bool        pobierz_bool(std::string co_pobrac, bool wartosc_domyslna);
-
+  void        czekaj();
   typedef void (Interface::* Interface_klasa_ptr)(void);
 
   void jezyk_interface_klasa(Interface_klasa_ptr stworz, Interface_klasa_ptr wyswietl);
-
+  
+  
 public:
   void interface_glowny();
 
@@ -83,15 +85,17 @@ public:
 
   void Interpretowany_interface_tworzenie();
   void Interpretowany_interface_wyswietlanie();
-  
+
   void Kompilowany_interface_tworzenie();
   void Kompilowany_interface_wyswietlanie();
-  
+
   void Administrator_interface_tworzenie();
   void Administrator_interface_wyswietlanie();
 
-  //void pokaz_zawartosc_wszystkich_obiektow();
-  Element_list_klas znajdz_instancje();
+  void pokaz_zawartosc_wszystkich_obiektow();
+  void pokaz_instancje(std::string typ_klasy);
+
+  void znajdz_instancje(std::string _typ_klasy, std::vector<Element_list_klas>& lista);
 
 };
 

@@ -15,7 +15,7 @@ TARGET   = miasi
 
 CC       = g++
 # compiling flags here
-CFLAGS   = -Wall -I.
+CFLAGS   = -Wall -I. -std=c++11
 
 LINKER   = g++ -o
 # linking flags here
