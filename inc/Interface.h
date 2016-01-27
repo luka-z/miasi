@@ -55,8 +55,8 @@ private:
 
   void jezyk_interface_klasa(Interface_klasa_ptr stworz, Interface_klasa_ptr wyswietl);
   
-  
 public:
+  ~Interface(); 
   void interface_glowny();
 
   void jezyk_sztuczny_interface_tworzenie();
@@ -96,6 +96,8 @@ public:
   void pokaz_instancje(std::string typ_klasy);
 
   void znajdz_instancje(std::string _typ_klasy, std::vector<Element_list_klas>& lista);
+
+  void inicjalizuj_wszystkie_obiekty();
 
 };
 
